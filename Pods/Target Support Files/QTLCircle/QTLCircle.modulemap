@@ -1,6 +1,0 @@
-framework module QTLCircle {
-  umbrella header "QTLCircle-umbrella.h"
-
-  export *
-  module * { export * }
-}

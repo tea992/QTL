@@ -1,6 +1,0 @@
-framework module QTLNews {
-  umbrella header "QTLNews-umbrella.h"
-
-  export *
-  module * { export * }
-}

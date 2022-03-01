@@ -1,6 +1,0 @@
-framework module QTLUserCenter {
-  umbrella header "QTLUserCenter-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module Pods_QTL {
-  umbrella header "Pods-QTL-umbrella.h"
-
-  export *
-  module * { export * }
-}
