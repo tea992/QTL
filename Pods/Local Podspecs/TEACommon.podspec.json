@@ -1,0 +1,22 @@
+{
+  "name": "TEACommon",
+  "version": "0.1.0",
+  "summary": "TEACommon.",
+  "description": "这是一些关于iOS项目的定义文件，用到这里的比较多。",
+  "homepage": "https://github.com/Tea/TEACommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tea": "270490106@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Tea/TEACommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TEACommon/Classes/**/*"
+}

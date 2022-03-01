@@ -1,0 +1,6 @@
+framework module QTLMall {
+  umbrella header "QTLMall-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,2884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0119F52C04BBE3770E18C0DCC2FCD869 /* TEACommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6016E68726726B5D4E7D413146110296 /* TEACommon.swift */; };
+		0B0DD076E00E9A288300CE82B922E358 /* QTLMallHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD47C08A503ED0C0B12A14C4616CB774 /* QTLMallHeader.swift */; };
+		144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */; };
+		17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */; };
+		1968A50AB9F6F7104B28075245EB9AD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */; };
+		21918F375A1E903BF75FD3D654782038 /* QTLUserCenterHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BC010BC03074153ADCC6B98AC6AEE /* QTLUserCenterHeader.swift */; };
+		274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */; };
+		27F7A2C28CAF578677B75E2630C3702A /* TEACommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 560007372E610C9513D865B33DE6BF63 /* TEACommon-dummy.m */; };
+		2890FC4699512F8684DE14D87755B9B4 /* QTLMall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F32F4E566238F482C35F01F30A8B81 /* QTLMall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0283C49FC48349BC70961D82C5536A /* QTLUserCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B56F2884468EAF3F845CF05B43C96 /* QTLUserCenter-dummy.m */; };
+		30D1416E8C5A8A763CD4962EBD065EB3 /* TEAUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA3ED8E0273030501BD11810A8D68F /* TEAUIKit-dummy.m */; };
+		3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */; };
+		3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */; };
+		3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */; };
+		3E18BAAFB34F763E341A63EC9D6705F5 /* Pods-QTL-QTLUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8117F81D1C6507DFECF84FF4AE627DE /* Pods-QTL-QTLUITests-dummy.m */; };
+		3F28D55AC909358A8A02015539218A2A /* QTLNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15210864729D4937A29CE4821D6A5D /* QTLNews-dummy.m */; };
+		42533272144D6523B3DE6B313AEE960C /* TEACommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 718720746B2C4C2D71B12F9A89996F73 /* TEACommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */; };
+		4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */; };
+		4F9A8362BF4FBFF6F99304D2105E7120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */; };
+		58FEC35AC8ACA12ED00B2DF7D32FC4DF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B01CF0830A4AA65595C50A7BDD6ACB /* ReplaceMe.swift */; };
+		5BB991C0A2ED58CA16072DAB931779DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D39E6A5F62262DFEDDB847236181830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */; };
+		623805CA20141240E891E66D7CB6EC84 /* QTLMall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10DAF10F2ADAC9C06A3ED10365E4CD /* QTLMall-dummy.m */; };
+		62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */; };
+		67BE48F3FE00045C6D639C145216E41B /* QTLLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DE66EF1A93ACA21B015480EBB7C985 /* QTLLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731C8952E9823F31BCCC426E73619914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */; };
+		7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */; };
+		79BE5CD39EB663374599E613360E429B /* QTLUserCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA37B467F321773B34BB0C2438CDC1 /* QTLUserCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEC4C64CB44F50B7B3D6BB54AA790DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7CE333FB3C979841E6188595163E9974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		80FFBA500E2B590B2D83FF8B6B70FFA4 /* TEAUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0B4090EDE4F38D0C21507E1FD48F4F /* TEAUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */; };
+		84397A8127CE4A0B00B03A37 /* QTLLoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A8027CE4A0B00B03A37 /* QTLLoginHeader.swift */; };
+		84397A8927CE4AD500B03A37 /* QTLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A8827CE4AD500B03A37 /* QTLLoginViewController.swift */; };
+		84397A9727CE534100B03A37 /* Target_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A9627CE534100B03A37 /* Target_Login.swift */; };
+		84397A9927CE576E00B03A37 /* Target_Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A9827CE576E00B03A37 /* Target_Circle.swift */; };
+		84397A9B27CE57C100B03A37 /* QTLCircleMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A9A27CE57C100B03A37 /* QTLCircleMainViewController.swift */; };
+		84397A9D27CE585500B03A37 /* QTLFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A9C27CE585500B03A37 /* QTLFriendViewController.swift */; };
+		84397A9F27CE587E00B03A37 /* Target_Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A9E27CE587E00B03A37 /* Target_Friend.swift */; };
+		84397AA127CE58E200B03A37 /* Target_Mall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397AA027CE58E200B03A37 /* Target_Mall.swift */; };
+		84397AA327CE58F200B03A37 /* QTLMallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397AA227CE58F200B03A37 /* QTLMallViewController.swift */; };
+		84397AA527CE594500B03A37 /* QTLNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397AA427CE594500B03A37 /* QTLNewsViewController.swift */; };
+		84397AA727CE595800B03A37 /* Target_News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397AA627CE595700B03A37 /* Target_News.swift */; };
+		84397AA927CE59A900B03A37 /* Target_UserCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397AA827CE59A900B03A37 /* Target_UserCenter.swift */; };
+		84397AAB27CE59B700B03A37 /* QTLUserCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397AAA27CE59B700B03A37 /* QTLUserCenterViewController.swift */; };
+		8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */; };
+		865F6BFC70DEC630AC19E20164E0C551 /* Pods-QTLTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B9DE552BF119D11EA6F044218E7B1 /* Pods-QTLTests-dummy.m */; };
+		8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */; };
+		8D1C9BA5ABCF070024D80185892F86A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */; };
+		90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */; };
+		968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */; };
+		96FC24A2ADACBD512D6FB6F6F8B781B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D609B1BB3BD7C93DF93AC75B1BE8C07 /* QTLNewsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB4EC1EB49A57A19677DE0AC97CD2C /* QTLNewsHeader.swift */; };
+		A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */; };
+		A1BACA57B9326FFFCC0A1C9E4C2101E2 /* QTLFriend-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AB32B2CF08B2094998A4E0360C241 /* QTLFriend-dummy.m */; };
+		A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */; };
+		AD9E2B7133C6A92D84250183FA58AEEB /* QTLCircle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D7AB14392B85F621DED1AD00CE0813 /* QTLCircle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE81CDAB1963AA47DC9AF6A40D198B68 /* Pods-QTL-QTLUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E7CFB9F0FF860AE628691E35EBB202 /* Pods-QTL-QTLUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */; };
+		B5C9842FC90B21D8BB7482FB3FB18436 /* QTLCircleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6832764A363C0971AE106BFC876A43A /* QTLCircleHeader.swift */; };
+		B74980DF1479AA4221EC5BB2ABD2FB44 /* Pods-QTL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475AF4E8CC6472F9438213EB982F4EBB /* Pods-QTL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */; };
+		BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */; };
+		C1FB563929BBCC5FD8C5CF0563DE26DC /* QTLFriend-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 697FEFFF7079FBB70C951E2FA299651D /* QTLFriend-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */; };
+		CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */; };
+		CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */; };
+		CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D06A94C3F22D5BECFEF5B9259F5C52C1 /* Pods-QTL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B02770B956AC40CCDE91DEBE58479CE /* Pods-QTL-dummy.m */; };
+		D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */; };
+		D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */; };
+		E30D923C7DDA21D75865206509B2B4ED /* QTLFriendHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E44A07AE12CB88D10C87C9516A810 /* QTLFriendHeader.swift */; };
+		E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */; };
+		E65B95B409D251B6A298ED01C0BD9FB5 /* QTLLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B9E1F155144006BD52A59337FB1FBB /* QTLLogin-dummy.m */; };
+		E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */; };
+		EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */; };
+		EF0AED42C625264928E16E821E04706F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF151ACE08D01E969B1574EFE0F1402A /* Pods-QTLTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B7502ECDED0EF3DB20E8197CC42B1D /* Pods-QTLTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */; };
+		F1D82D54430433492A57B633F5D361A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */; };
+		F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */; };
+		F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */; };
+		F6F8E03EF50252CFD88A737049B81FA4 /* QTLCircle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA1F526C4E853C5A2B87CE1E596B09E /* QTLCircle-dummy.m */; };
+		F725006B8942737BCAF34EC65EAE8248 /* QTLNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFBCBBD2EA48B2816E75042B25CFA6B /* QTLNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0539B16060A5F2B15290EBF003063929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A975110F2A23710EA614DC8DEFD6AFAD;
+			remoteInfo = TEAUIKit;
+		};
+		16CFA4404D19D77E3C2E03C931426665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256DF69592809E37E0BDBC1ACA5B8F84;
+			remoteInfo = QTLNews;
+		};
+		19AE3A292533C95780F5B607D1CE963C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256DF69592809E37E0BDBC1ACA5B8F84;
+			remoteInfo = QTLNews;
+		};
+		1DFB4C0D30D39C0AA38A3DD56F5CE8E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94754B92FDA4D0474D2D4160E47C52F;
+			remoteInfo = QTLUserCenter;
+		};
+		22405288E9F3FE684F91226574EB08F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		26CAC90295350D1EE448D5A9A194548C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0093C9DE651197DC45BB365ED0A4C84;
+			remoteInfo = QTLFriend;
+		};
+		2BE63D5EFE6376543766B11CF5F17C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BD268D40E5F8EC35F0DB5B193793D8;
+			remoteInfo = QTLLogin;
+		};
+		3661B7D8F857C80CFB571547F97DEC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B719FE037FCD6F20BCF0BE2B545D12;
+			remoteInfo = QTLCircle;
+		};
+		4CB3D5A9969BE63560C475496DB92134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D08EE921399F55BEACC5713F7A7331D;
+			remoteInfo = "Pods-QTL";
+		};
+		58D17A43CA14392AA7F6136BEC1A5909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B719FE037FCD6F20BCF0BE2B545D12;
+			remoteInfo = QTLCircle;
+		};
+		63F77EDFEF7EE48738F2DDF22F31CF39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0093C9DE651197DC45BB365ED0A4C84;
+			remoteInfo = QTLFriend;
+		};
+		67AF1D010817F2D25B9D10880DD5B5A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF646CD577271D2806E7298030F31D6;
+			remoteInfo = QTLMall;
+		};
+		777BA165603042DD2703C2F988461182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		98C639B4C6EDADB12479586B9D96591F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17278E88D37E988C3DFCD66CF0266D5;
+			remoteInfo = TEACommon;
+		};
+		9E5384A2540B677B87F409E3C4D8A404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A975110F2A23710EA614DC8DEFD6AFAD;
+			remoteInfo = TEAUIKit;
+		};
+		A3BFF5BAB3AE1BFF973FA44FA2ECF247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17278E88D37E988C3DFCD66CF0266D5;
+			remoteInfo = TEACommon;
+		};
+		B51E2AC1D9A453A4574ACBC19BD0A80A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF646CD577271D2806E7298030F31D6;
+			remoteInfo = QTLMall;
+		};
+		C11B4BDF6BE278BF70D8F85EC1EC3B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94754B92FDA4D0474D2D4160E47C52F;
+			remoteInfo = QTLUserCenter;
+		};
+		E20C29D207DB3C40496564E9ABC3E7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		EF365B05DC88B4BDC511C8BFD3FFB820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BD268D40E5F8EC35F0DB5B193793D8;
+			remoteInfo = QTLLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0032C71BAB6E32795460D4E4033BA9CA /* TEACommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TEACommon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		00C0DB84F2E22DF5683FB49C7F42EC44 /* Pods-QTL-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTL-acknowledgements.plist"; sourceTree = "<group>"; };
+		0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		0396D44671C14785361D5A8189BDB9B8 /* Pods-QTL-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTL-acknowledgements.markdown"; sourceTree = "<group>"; };
+		073850D41D684E210883BBDDF2B91DCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		09CBD58C5FC70B710C341340B281E9FF /* TEACommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TEACommon-Info.plist"; sourceTree = "<group>"; };
+		0B4E7703AA0AED7E24A43FB4D6E18F7F /* QTLLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QTLLogin.modulemap; sourceTree = "<group>"; };
+		0C6425D992A8FFA0D0611B8B9EE9FC5E /* QTLFriend.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QTLFriend.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0FFBCBBD2EA48B2816E75042B25CFA6B /* QTLNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLNews-umbrella.h"; sourceTree = "<group>"; };
+		1012466FA2F0347E38A8A13A2E97ABE8 /* QTLNews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLNews-prefix.pch"; sourceTree = "<group>"; };
+		101F29F0F3BA82CB77D8EDD2C64E9835 /* Pods-QTLTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTLTests-Info.plist"; sourceTree = "<group>"; };
+		1151DAF115DBFA0169966748E1452E67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		1334A7E0F914731ED50BE919B5B3B8C4 /* QTLMall-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLMall-prefix.pch"; sourceTree = "<group>"; };
+		13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		14189D5E36CD200449E3212903C6EA44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		16516A4B83B1FE206DA587698D08ADF2 /* Pods-QTL-QTLUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTL-QTLUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1727534C379562DF53E0D404BB5874E7 /* QTLFriend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLFriend.debug.xcconfig; sourceTree = "<group>"; };
+		17C36804D188A9050EC17A0B300A465B /* Pods-QTL-QTLUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QTL-QTLUITests"; path = Pods_QTL_QTLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1821999F04FE260F3FBEC4F5F21A8889 /* Pods-QTL */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QTL"; path = Pods_QTL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833A5CC18311479970DB4806DE3F1FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1ACA3ED8E0273030501BD11810A8D68F /* TEAUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TEAUIKit-dummy.m"; sourceTree = "<group>"; };
+		1DD27423C7FE5D45FC5B1A603C0821E1 /* QTLCircle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QTLCircle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E70C9EC5CEBC964E2D9EA169E1710A3 /* QTLNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLNews.release.xcconfig; sourceTree = "<group>"; };
+		1F15210864729D4937A29CE4821D6A5D /* QTLNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTLNews-dummy.m"; sourceTree = "<group>"; };
+		2076760EA875DF03A4AF39C1C30D1D73 /* QTLCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLCircle.debug.xcconfig; sourceTree = "<group>"; };
+		20AF39DACCAE449400CFA2614B76CF41 /* TEACommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TEACommon.debug.xcconfig; sourceTree = "<group>"; };
+		238697BB38D64CD678AAD84BA0F6CFA8 /* QTLLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLLogin.release.xcconfig; sourceTree = "<group>"; };
+		2483D5E8756948ECAADF2459701374CE /* TEACommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TEACommon.modulemap; sourceTree = "<group>"; };
+		250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		2B2EDA04780238CEB7E6D0BC8236906B /* TEAUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TEAUIKit; path = TEAUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0B4090EDE4F38D0C21507E1FD48F4F /* TEAUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEAUIKit-umbrella.h"; sourceTree = "<group>"; };
+		2DB7EB62C39C3B41A1F33ACE6FD42B74 /* TEACommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TEACommon.release.xcconfig; sourceTree = "<group>"; };
+		2E5E44A07AE12CB88D10C87C9516A810 /* QTLFriendHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTLFriendHeader.swift; path = QTLFriend/Classes/QTLFriendHeader.swift; sourceTree = "<group>"; };
+		305CD8DCF29D46090D70C2F19E55C432 /* QTLCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLCircle.release.xcconfig; sourceTree = "<group>"; };
+		31B7502ECDED0EF3DB20E8197CC42B1D /* Pods-QTLTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTLTests-umbrella.h"; sourceTree = "<group>"; };
+		3729DA11D42DCC37D6868B16E2EC1778 /* TEAUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TEAUIKit-Info.plist"; sourceTree = "<group>"; };
+		391A6F8B42D2CD885F8F3C4CE6859439 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		39D1D649BB7942CE7E933222BAB2394B /* QTLUserCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QTLUserCenter.modulemap; sourceTree = "<group>"; };
+		3A600ADB46412428CABB6C3EDAB246C9 /* Pods-QTL-QTLUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QTL-QTLUITests.modulemap"; sourceTree = "<group>"; };
+		3B21B790FA0A70CE54B416E9DBC6BEDB /* QTLMall */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTLMall; path = QTLMall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		40303519614D5489BA8EB584A1280F13 /* TEAUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEAUIKit-prefix.pch"; sourceTree = "<group>"; };
+		41B33965D84661BB8398962EECF6BB34 /* QTLMall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QTLMall.modulemap; sourceTree = "<group>"; };
+		42072D30172217D04B2A7AF2635F2E16 /* Pods-QTL-QTLUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTL-QTLUITests-frameworks.sh"; sourceTree = "<group>"; };
+		464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		475AF4E8CC6472F9438213EB982F4EBB /* Pods-QTL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTL-umbrella.h"; sourceTree = "<group>"; };
+		47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		48462C04F5F6C93E1EFEC44222564DD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49A305A0DBD9F41A1778FCE45230302F /* Pods-QTL-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTL-Info.plist"; sourceTree = "<group>"; };
+		4BFDCB1008C02E6D8A71F5B60669DF09 /* QTLCircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QTLCircle.modulemap; sourceTree = "<group>"; };
+		4D837405AB52D848D8FC16B8886866C9 /* Pods-QTL-QTLUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTL-QTLUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DF06DA21C27CFAD0DA4C8E62C0DB89B /* QTLNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QTLNews.modulemap; sourceTree = "<group>"; };
+		50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		508B9F5BB8D8D759833E844F2CEF4BAC /* QTLCircle */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTLCircle; path = QTLCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F3B2C3E54F1E1C2AB59BE02AC751C9 /* QTLUserCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLUserCenter-prefix.pch"; sourceTree = "<group>"; };
+		549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		55B77FBE8A9EBC52B105F6705CB7DC23 /* Pods-QTL-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTL-frameworks.sh"; sourceTree = "<group>"; };
+		560007372E610C9513D865B33DE6BF63 /* TEACommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TEACommon-dummy.m"; sourceTree = "<group>"; };
+		56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		5808BD7658D0EDE7B2DFD8E802C05646 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		597B895204A2040B5BBDAAB7B6B184B7 /* Pods-QTLTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QTLTests"; path = Pods_QTLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6016E68726726B5D4E7D413146110296 /* TEACommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TEACommon.swift; path = TEACommon/Classes/TEACommon.swift; sourceTree = "<group>"; };
+		62300CD4453B5E6E30C8BCC006BD608F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		64044B09CAFE40A7B9F0D1F22AD632F9 /* QTLLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QTLLogin-Info.plist"; sourceTree = "<group>"; };
+		656DBCD9529377829DF32CAAE8AB68D3 /* Pods-QTL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTL.debug.xcconfig"; sourceTree = "<group>"; };
+		66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		66DE66EF1A93ACA21B015480EBB7C985 /* QTLLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLLogin-umbrella.h"; sourceTree = "<group>"; };
+		68D56E0A261B385913DE6CC37AD62B0F /* QTLUserCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QTLUserCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		697FEFFF7079FBB70C951E2FA299651D /* QTLFriend-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLFriend-umbrella.h"; sourceTree = "<group>"; };
+		6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		6AA1F526C4E853C5A2B87CE1E596B09E /* QTLCircle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTLCircle-dummy.m"; sourceTree = "<group>"; };
+		6D552C63E2EE8C81FAFFBD9BE4AAC7F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		6F1642722E23CC37F2493B7546301E70 /* QTLFriend.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QTLFriend.modulemap; sourceTree = "<group>"; };
+		718720746B2C4C2D71B12F9A89996F73 /* TEACommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEACommon-umbrella.h"; sourceTree = "<group>"; };
+		7198CFD85E1095B783C9452F1504E2AB /* TEAUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TEAUIKit.modulemap; sourceTree = "<group>"; };
+		71B01CF0830A4AA65595C50A7BDD6ACB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TEAUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		738A304224BEBFC543EEF04C825522C2 /* Pods-QTLTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTLTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7760F9F429493FBD5F7518198E728010 /* QTLNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLNews.debug.xcconfig; sourceTree = "<group>"; };
+		778584692BA0A1A12911F2B57D075A3C /* Pods-QTL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTL.release.xcconfig"; sourceTree = "<group>"; };
+		7889131C1139F96BBDA94CEE2E694763 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		79AC39D721EF9D208FF6FD39746BA568 /* QTLMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLMall.release.xcconfig; sourceTree = "<group>"; };
+		7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		7B02770B956AC40CCDE91DEBE58479CE /* Pods-QTL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTL-dummy.m"; sourceTree = "<group>"; };
+		7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		7CFDA6209A3D474023E84A535AE25C4A /* QTLLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLLogin-prefix.pch"; sourceTree = "<group>"; };
+		7DC983E2D930BCD10B8D01FA51FAA730 /* QTLCircle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLCircle-prefix.pch"; sourceTree = "<group>"; };
+		8151E7DCFA8711065B569C5C8005973D /* QTLLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QTLLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81785DE9A5CDCB344B182C5D17EE8763 /* TEAUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TEAUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		81814ECBD293C420F6B19E75AD0A77E9 /* TEAUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TEAUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83B9E1F155144006BD52A59337FB1FBB /* QTLLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTLLogin-dummy.m"; sourceTree = "<group>"; };
+		84397A8027CE4A0B00B03A37 /* QTLLoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLLoginHeader.swift; sourceTree = "<group>"; };
+		84397A8827CE4AD500B03A37 /* QTLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTLLoginViewController.swift; sourceTree = "<group>"; };
+		84397A9627CE534100B03A37 /* Target_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Login.swift; sourceTree = "<group>"; };
+		84397A9827CE576E00B03A37 /* Target_Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Circle.swift; sourceTree = "<group>"; };
+		84397A9A27CE57C100B03A37 /* QTLCircleMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLCircleMainViewController.swift; sourceTree = "<group>"; };
+		84397A9C27CE585500B03A37 /* QTLFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLFriendViewController.swift; sourceTree = "<group>"; };
+		84397A9E27CE587E00B03A37 /* Target_Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Friend.swift; sourceTree = "<group>"; };
+		84397AA027CE58E200B03A37 /* Target_Mall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Mall.swift; sourceTree = "<group>"; };
+		84397AA227CE58F200B03A37 /* QTLMallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLMallViewController.swift; sourceTree = "<group>"; };
+		84397AA427CE594500B03A37 /* QTLNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLNewsViewController.swift; sourceTree = "<group>"; };
+		84397AA627CE595700B03A37 /* Target_News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_News.swift; sourceTree = "<group>"; };
+		84397AA827CE59A900B03A37 /* Target_UserCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_UserCenter.swift; sourceTree = "<group>"; };
+		84397AAA27CE59B700B03A37 /* QTLUserCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLUserCenterViewController.swift; sourceTree = "<group>"; };
+		893AB32B2CF08B2094998A4E0360C241 /* QTLFriend-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTLFriend-dummy.m"; sourceTree = "<group>"; };
+		8DAB4EC1EB49A57A19677DE0AC97CD2C /* QTLNewsHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTLNewsHeader.swift; path = QTLNews/Classes/QTLNewsHeader.swift; sourceTree = "<group>"; };
+		8DB9CA56F1A45483AFBFDAB8ACD0A4E4 /* Pods-QTLTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QTLTests.modulemap"; sourceTree = "<group>"; };
+		91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		916F6D9834DBBDB5C2C2730873CEA2C9 /* QTLNews */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTLNews; path = QTLNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		92BCA609D5149835870E7C4E77749B5E /* QTLMall.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QTLMall.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92D4FDD3137D53728C9C471BA8651FF2 /* Pods-QTLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTLTests.release.xcconfig"; sourceTree = "<group>"; };
+		94344E87F1DFA5FEEA0D11CAB46688AF /* Pods-QTL-QTLUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTL-QTLUITests-Info.plist"; sourceTree = "<group>"; };
+		94B19ED41E094FCEBDF374B432BDAA20 /* Pods-QTLTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTLTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95B0237E850F9A21B90B1BCE178E2902 /* QTLUserCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLUserCenter.debug.xcconfig; sourceTree = "<group>"; };
+		9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6B56F2884468EAF3F845CF05B43C96 /* QTLUserCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTLUserCenter-dummy.m"; sourceTree = "<group>"; };
+		9C7BDD2CA8C0447CDA1DDF1B35A2882B /* TEACommon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TEACommon; path = TEACommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9416EAB88095B7706B1ACEF44E4888 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A019EC6E5BCC875F2BCCDF4544BAE782 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		A70138D5CB8F7824C83A186D5BA26483 /* QTLLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLLogin.debug.xcconfig; sourceTree = "<group>"; };
+		A76C4F41AAE1037A33FB4D40B4F84757 /* QTLFriend-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QTLFriend-Info.plist"; sourceTree = "<group>"; };
+		A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		A9050BEC54FBE4BE14B6AD7F5514ECFF /* TEACommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEACommon-prefix.pch"; sourceTree = "<group>"; };
+		B5D7AB14392B85F621DED1AD00CE0813 /* QTLCircle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLCircle-umbrella.h"; sourceTree = "<group>"; };
+		B5F4424A8E44F06DEE494561CD47443A /* TEAUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TEAUIKit.release.xcconfig; sourceTree = "<group>"; };
+		B901E1920798BC068E63F13DCA11FF96 /* QTLMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLMall.debug.xcconfig; sourceTree = "<group>"; };
+		BAD2A293F2139D4DABF0CC58680FFB18 /* Pods-QTL-QTLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTL-QTLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB409D98BA925E49BC0B96B27DB262AA /* QTLUserCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLUserCenter.release.xcconfig; sourceTree = "<group>"; };
+		BDDE4354A371698587F5176056EF8442 /* QTLCircle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QTLCircle-Info.plist"; sourceTree = "<group>"; };
+		BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		BF5B9DE552BF119D11EA6F044218E7B1 /* Pods-QTLTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTLTests-dummy.m"; sourceTree = "<group>"; };
+		C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		CB10DAF10F2ADAC9C06A3ED10365E4CD /* QTLMall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTLMall-dummy.m"; sourceTree = "<group>"; };
+		CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		CD47C08A503ED0C0B12A14C4616CB774 /* QTLMallHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTLMallHeader.swift; path = QTLMall/Classes/QTLMallHeader.swift; sourceTree = "<group>"; };
+		D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		D2853E8DF6F77D756A7D648A05F5E3D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		D5F32F4E566238F482C35F01F30A8B81 /* QTLMall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLMall-umbrella.h"; sourceTree = "<group>"; };
+		D6832764A363C0971AE106BFC876A43A /* QTLCircleHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTLCircleHeader.swift; path = QTLCircle/Classes/QTLCircleHeader.swift; sourceTree = "<group>"; };
+		D8117F81D1C6507DFECF84FF4AE627DE /* Pods-QTL-QTLUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTL-QTLUITests-dummy.m"; sourceTree = "<group>"; };
+		D8132B07274CD03AAD3C0ECEE9919C5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D91CAA952605DC535E58A24C2531DE40 /* QTLFriend */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTLFriend; path = QTLFriend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA950DD45CB882F30C65A39362BF41CE /* QTLNews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QTLNews.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB5D47F25180248EDB1AE8B0EFAACA6F /* QTLUserCenter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTLUserCenter; path = QTLUserCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72F3C8330E20F196067608FE58B53B /* Pods-QTL-QTLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTL-QTLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		E14A09DC3AD8CA84464FEC37F0FC99D1 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		E1A79E33962A5EA30FC9FDFFB4CB985F /* QTLFriend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTLFriend.release.xcconfig; sourceTree = "<group>"; };
+		E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		E7531D5E4B04749954B38DB8135D9D2B /* Pods-QTLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7DC217033A731E0B3661CDCBFA67C4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8690C185AEE202DFA623F0C8F132840 /* QTLMall-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QTLMall-Info.plist"; sourceTree = "<group>"; };
+		EC41DEB6EFDEE086F1DE17F3F3948502 /* QTLUserCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QTLUserCenter-Info.plist"; sourceTree = "<group>"; };
+		ED795902ED9B03EB9D71C51BFEB42B02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE4C4DE793134BB1DADFDA35839C78B5 /* QTLNews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QTLNews-Info.plist"; sourceTree = "<group>"; };
+		EE5930ECB2958095CF7204E8F5776E19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		EEE703907FFAFA048D4CEFE0318E3459 /* Pods-QTL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QTL.modulemap"; sourceTree = "<group>"; };
+		F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		F1C180241FF59AE8EA1088F76A1A47BD /* QTLLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QTLLogin; path = QTLLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		F8E7CFB9F0FF860AE628691E35EBB202 /* Pods-QTL-QTLUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTL-QTLUITests-umbrella.h"; sourceTree = "<group>"; };
+		FB9DEBCB1C0C4BB81AAB7BCA9979016B /* QTLFriend-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLFriend-prefix.pch"; sourceTree = "<group>"; };
+		FCFA37B467F321773B34BB0C2438CDC1 /* QTLUserCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTLUserCenter-umbrella.h"; sourceTree = "<group>"; };
+		FD4067EBA8BB78045F778B27C90A4D9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FF2BC010BC03074153ADCC6B98AC6AEE /* QTLUserCenterHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QTLUserCenterHeader.swift; path = QTLUserCenter/Classes/QTLUserCenterHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B99943B2F89D54A6ECDA6ECE5AC9640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731C8952E9823F31BCCC426E73619914 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3A7B4D804FA384AC3D133874197563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEC4C64CB44F50B7B3D6BB54AA790DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146E1C0890DB670BBE5AC6D9617D9FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1C9BA5ABCF070024D80185892F86A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3893896C8BE8F737FCBE28A036777F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D39E6A5F62262DFEDDB847236181830 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400A806BA78F257CD71257DDD749DF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC24A2ADACBD512D6FB6F6F8B781B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9ACC5475359BB9AF01B574348FB084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9A8362BF4FBFF6F99304D2105E7120 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1174479BCD125A20CD096685AC0C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1968A50AB9F6F7104B28075245EB9AD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B30433E568C40FCE04D5188A9715448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4271AB6612E3B104C9804E814106708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB991C0A2ED58CA16072DAB931779DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A3EDBDC28706E1E1D4970E9F052574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE333FB3C979841E6188595163E9974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60DC7E2CB8A9344B10AD6840A2F56AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D82D54430433492A57B633F5D361A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB28B3470C4AC598A37D31BC6A7E4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0AED42C625264928E16E821E04706F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0485D7E127859978E7239BE0B988DF0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF06DA21C27CFAD0DA4C8E62C0DB89B /* QTLNews.modulemap */,
+				1F15210864729D4937A29CE4821D6A5D /* QTLNews-dummy.m */,
+				EE4C4DE793134BB1DADFDA35839C78B5 /* QTLNews-Info.plist */,
+				1012466FA2F0347E38A8A13A2E97ABE8 /* QTLNews-prefix.pch */,
+				0FFBCBBD2EA48B2816E75042B25CFA6B /* QTLNews-umbrella.h */,
+				7760F9F429493FBD5F7518198E728010 /* QTLNews.debug.xcconfig */,
+				1E70C9EC5CEBC964E2D9EA169E1710A3 /* QTLNews.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/QTLNews";
+			sourceTree = "<group>";
+		};
+		067D10B74FADF233D0F4415E5C2E4BCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDCB1008C02E6D8A71F5B60669DF09 /* QTLCircle.modulemap */,
+				6AA1F526C4E853C5A2B87CE1E596B09E /* QTLCircle-dummy.m */,
+				BDDE4354A371698587F5176056EF8442 /* QTLCircle-Info.plist */,
+				7DC983E2D930BCD10B8D01FA51FAA730 /* QTLCircle-prefix.pch */,
+				B5D7AB14392B85F621DED1AD00CE0813 /* QTLCircle-umbrella.h */,
+				2076760EA875DF03A4AF39C1C30D1D73 /* QTLCircle.debug.xcconfig */,
+				305CD8DCF29D46090D70C2F19E55C432 /* QTLCircle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/QTLCircle";
+			sourceTree = "<group>";
+		};
+		1233780A29F4B7595A8DED0F44F115DC /* QTLUserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				FF2BC010BC03074153ADCC6B98AC6AEE /* QTLUserCenterHeader.swift */,
+				84397AA827CE59A900B03A37 /* Target_UserCenter.swift */,
+				84397AAA27CE59B700B03A37 /* QTLUserCenterViewController.swift */,
+				FF9A9A35A831CC1F98A99DF06AF52844 /* Pod */,
+				C8E563BCA0816D8FEFB1CB9FEE4337CF /* Support Files */,
+			);
+			name = QTLUserCenter;
+			path = ../../QTLUserCenter;
+			sourceTree = "<group>";
+		};
+		1BA583AE13CC0D6D7A257A87FA3D92EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5808BD7658D0EDE7B2DFD8E802C05646 /* LICENSE */,
+				DA950DD45CB882F30C65A39362BF41CE /* QTLNews.podspec */,
+				ED795902ED9B03EB9D71C51BFEB42B02 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		20E36BC8E79070D6B643D4C82FD71287 /* Pods-QTL */ = {
+			isa = PBXGroup;
+			children = (
+				EEE703907FFAFA048D4CEFE0318E3459 /* Pods-QTL.modulemap */,
+				0396D44671C14785361D5A8189BDB9B8 /* Pods-QTL-acknowledgements.markdown */,
+				00C0DB84F2E22DF5683FB49C7F42EC44 /* Pods-QTL-acknowledgements.plist */,
+				7B02770B956AC40CCDE91DEBE58479CE /* Pods-QTL-dummy.m */,
+				55B77FBE8A9EBC52B105F6705CB7DC23 /* Pods-QTL-frameworks.sh */,
+				49A305A0DBD9F41A1778FCE45230302F /* Pods-QTL-Info.plist */,
+				475AF4E8CC6472F9438213EB982F4EBB /* Pods-QTL-umbrella.h */,
+				656DBCD9529377829DF32CAAE8AB68D3 /* Pods-QTL.debug.xcconfig */,
+				778584692BA0A1A12911F2B57D075A3C /* Pods-QTL.release.xcconfig */,
+			);
+			name = "Pods-QTL";
+			path = "Target Support Files/Pods-QTL";
+			sourceTree = "<group>";
+		};
+		2C5555A9BE78A20F64F4D9F9A18A3704 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D93030B6F96D47F91571E489F8ECA427 /* QTLCircle */,
+				7FC3746141FA844F7A7F825655229F25 /* QTLFriend */,
+				77C296DE2F4438379D44D7AF6A1E5EE4 /* QTLLogin */,
+				67973F64C74322D5C524498051163221 /* QTLMall */,
+				95893F675BCD754A03311689E0AEB5EE /* QTLNews */,
+				1233780A29F4B7595A8DED0F44F115DC /* QTLUserCenter */,
+				F63FC7282C843A2F38781C595189C6E5 /* TEACommon */,
+				F08173D799A6E5C575B4B122D814A45C /* TEAUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62153058C72AB5326821DF9A33B28658 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				073850D41D684E210883BBDDF2B91DCE /* LICENSE */,
+				1DD27423C7FE5D45FC5B1A603C0821E1 /* QTLCircle.podspec */,
+				9F9416EAB88095B7706B1ACEF44E4888 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		64C2DE116C5E1DB59559B14861DE6055 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A019EC6E5BCC875F2BCCDF4544BAE782 /* LICENSE */,
+				0C6425D992A8FFA0D0611B8B9EE9FC5E /* QTLFriend.podspec */,
+				48462C04F5F6C93E1EFEC44222564DD4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		67973F64C74322D5C524498051163221 /* QTLMall */ = {
+			isa = PBXGroup;
+			children = (
+				CD47C08A503ED0C0B12A14C4616CB774 /* QTLMallHeader.swift */,
+				84397AA027CE58E200B03A37 /* Target_Mall.swift */,
+				84397AA227CE58F200B03A37 /* QTLMallViewController.swift */,
+				B6850533E5E02E52EE4335628CCF3B65 /* Pod */,
+				FCF6A04665A640D2E65E32C3A79517CB /* Support Files */,
+			);
+			name = QTLMall;
+			path = ../../QTLMall;
+			sourceTree = "<group>";
+		};
+		73C60950E10FC667E603387C6AEF7917 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE5930ECB2958095CF7204E8F5776E19 /* LICENSE */,
+				14189D5E36CD200449E3212903C6EA44 /* README.md */,
+				81814ECBD293C420F6B19E75AD0A77E9 /* TEAUIKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		77C296DE2F4438379D44D7AF6A1E5EE4 /* QTLLogin */ = {
+			isa = PBXGroup;
+			children = (
+				84397A8027CE4A0B00B03A37 /* QTLLoginHeader.swift */,
+				84397A9627CE534100B03A37 /* Target_Login.swift */,
+				84397A8627CE4AD500B03A37 /* Login */,
+				E33EFBCC8CDB41862A727FC9B9EC45DD /* Pod */,
+				8ED72E4683954EAA57C5D9884F1F7798 /* Support Files */,
+			);
+			name = QTLLogin;
+			path = ../../QTLLogin;
+			sourceTree = "<group>";
+		};
+		7F02E3862C6E84203E8324D9D0088797 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				50380F281EC3EE769C85035CCEA77226 /* Constraint.swift */,
+				13F460233F2A555D41511B6CCA66A124 /* ConstraintAttributes.swift */,
+				250E41DBB680A3A2ECDDD2210311B230 /* ConstraintConfig.swift */,
+				6D990E0FED5B41C1F13AC6B08208A99B /* ConstraintConstantTarget.swift */,
+				CB1D9F6F4E2364DFAF158E04AF5D5EAA /* ConstraintDescription.swift */,
+				91164BE769DA144776663FBF46785561 /* ConstraintDirectionalInsets.swift */,
+				A7D358AA1606C7B2CDC8555485807E9E /* ConstraintDirectionalInsetTarget.swift */,
+				7AE00ECC24C5CC6DC938204FF42AD0E5 /* ConstraintDSL.swift */,
+				549471CD1FE3A1E1865DD172864918D3 /* ConstraintInsets.swift */,
+				7C2EC377264B25FB0E67D150E37E87CD /* ConstraintInsetTarget.swift */,
+				474AFC560A8B414B467174737DBC891A /* ConstraintItem.swift */,
+				66C5188AE61F0E667CD9E7ED28CDD61C /* ConstraintLayoutGuide.swift */,
+				09BF299D2EEB87E7DD02630E87B96224 /* ConstraintLayoutGuide+Extensions.swift */,
+				BE0BE9F3D55FDB29EF516F6D6B1B6BCA /* ConstraintLayoutGuideDSL.swift */,
+				3D705690D879064ED84970813189D8D4 /* ConstraintLayoutSupport.swift */,
+				C4A46A8054577838D49C60142EB88B13 /* ConstraintLayoutSupportDSL.swift */,
+				141BC33167429B9926FB24A17F01568C /* ConstraintMaker.swift */,
+				E2C3B0B200350EAC8F42EF635FF31BD1 /* ConstraintMakerEditable.swift */,
+				E43F10DE451FED17810D9B5C237324A5 /* ConstraintMakerExtendable.swift */,
+				11D02329E74D733C03BF6BAE1F564481 /* ConstraintMakerFinalizable.swift */,
+				91A53CAF547D71AEFABE49D91B4E6816 /* ConstraintMakerPriortizable.swift */,
+				724FB64349F5678CE1709979CF0DD952 /* ConstraintMakerRelatable.swift */,
+				F7AB9BB47A2175181386A432C07253AE /* ConstraintMultiplierTarget.swift */,
+				47B200BD964F52F6693D4168248B8645 /* ConstraintOffsetTarget.swift */,
+				F0BD95F32F2E57D6B9100B77B93F013C /* ConstraintPriority.swift */,
+				9716AD15FADF38A93170E034F2BCE457 /* ConstraintPriorityTarget.swift */,
+				2975CA5A0D26BC84F3EE9912FEBDA795 /* ConstraintRelatableTarget.swift */,
+				25479F58B67AA43E092C7B156C1B5C1B /* ConstraintRelation.swift */,
+				A51E99894F75F00A281BE6A32FBDE495 /* ConstraintView.swift */,
+				EE9055CEA7890517265589BD23D73A49 /* ConstraintView+Extensions.swift */,
+				56006AA49A060CA2830F32CD6F394823 /* ConstraintViewDSL.swift */,
+				D038D2FAA2F6B073D1B64B8635F4E3E6 /* Debugging.swift */,
+				F44C5B72775F6AF0891BF331F32FE10D /* LayoutConstraint.swift */,
+				464C01543F3BCEDEE51ABAA696513D0B /* LayoutConstraintItem.swift */,
+				D4E066869A95E00B949CBA4D2284C35F /* Typealiases.swift */,
+				6A9341666EAC154422A032092A7DC2D7 /* UILayoutSupport+Extensions.swift */,
+				843EFF0C650682C304D518A9092EE9FD /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		7FC3746141FA844F7A7F825655229F25 /* QTLFriend */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E44A07AE12CB88D10C87C9516A810 /* QTLFriendHeader.swift */,
+				84397A9C27CE585500B03A37 /* QTLFriendViewController.swift */,
+				84397A9E27CE587E00B03A37 /* Target_Friend.swift */,
+				64C2DE116C5E1DB59559B14861DE6055 /* Pod */,
+				F9507AF8D972DA8FABBB2B7FF9B48A15 /* Support Files */,
+			);
+			name = QTLFriend;
+			path = ../../QTLFriend;
+			sourceTree = "<group>";
+		};
+		84397A8627CE4AD500B03A37 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84397A8727CE4AD500B03A37 /* Controller */,
+			);
+			name = Login;
+			path = QTLLogin/Classes/Login;
+			sourceTree = "<group>";
+		};
+		84397A8727CE4AD500B03A37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84397A8827CE4AD500B03A37 /* QTLLoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		843EFF0C650682C304D518A9092EE9FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7889131C1139F96BBDA94CEE2E694763 /* SnapKit.modulemap */,
+				E13B89FFD81AACB7530769CA05EEA26B /* SnapKit-dummy.m */,
+				391A6F8B42D2CD885F8F3C4CE6859439 /* SnapKit-Info.plist */,
+				E14A09DC3AD8CA84464FEC37F0FC99D1 /* SnapKit-prefix.pch */,
+				0116B84A6773B75FCBFCB479E740F0F3 /* SnapKit-umbrella.h */,
+				7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */,
+				A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		8D59F9BD3B796F0CF4B29E6D751B7471 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7198CFD85E1095B783C9452F1504E2AB /* TEAUIKit.modulemap */,
+				1ACA3ED8E0273030501BD11810A8D68F /* TEAUIKit-dummy.m */,
+				3729DA11D42DCC37D6868B16E2EC1778 /* TEAUIKit-Info.plist */,
+				40303519614D5489BA8EB584A1280F13 /* TEAUIKit-prefix.pch */,
+				2D0B4090EDE4F38D0C21507E1FD48F4F /* TEAUIKit-umbrella.h */,
+				81785DE9A5CDCB344B182C5D17EE8763 /* TEAUIKit.debug.xcconfig */,
+				B5F4424A8E44F06DEE494561CD47443A /* TEAUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/TEAUIKit";
+			sourceTree = "<group>";
+		};
+		8ED72E4683954EAA57C5D9884F1F7798 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B4E7703AA0AED7E24A43FB4D6E18F7F /* QTLLogin.modulemap */,
+				83B9E1F155144006BD52A59337FB1FBB /* QTLLogin-dummy.m */,
+				64044B09CAFE40A7B9F0D1F22AD632F9 /* QTLLogin-Info.plist */,
+				7CFDA6209A3D474023E84A535AE25C4A /* QTLLogin-prefix.pch */,
+				66DE66EF1A93ACA21B015480EBB7C985 /* QTLLogin-umbrella.h */,
+				A70138D5CB8F7824C83A186D5BA26483 /* QTLLogin.debug.xcconfig */,
+				238697BB38D64CD678AAD84BA0F6CFA8 /* QTLLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/QTLLogin";
+			sourceTree = "<group>";
+		};
+		91207C112962E907392B504B80383C6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E36BC8E79070D6B643D4C82FD71287 /* Pods-QTL */,
+				A9337403D93FE2965D5A70E05BD11890 /* Pods-QTL-QTLUITests */,
+				AABEDAB1E2786DB19AA8B7D9F71D024C /* Pods-QTLTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95893F675BCD754A03311689E0AEB5EE /* QTLNews */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB4EC1EB49A57A19677DE0AC97CD2C /* QTLNewsHeader.swift */,
+				84397AA427CE594500B03A37 /* QTLNewsViewController.swift */,
+				84397AA627CE595700B03A37 /* Target_News.swift */,
+				1BA583AE13CC0D6D7A257A87FA3D92EE /* Pod */,
+				0485D7E127859978E7239BE0B988DF0B /* Support Files */,
+			);
+			name = QTLNews;
+			path = ../../QTLNews;
+			sourceTree = "<group>";
+		};
+		A9337403D93FE2965D5A70E05BD11890 /* Pods-QTL-QTLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A600ADB46412428CABB6C3EDAB246C9 /* Pods-QTL-QTLUITests.modulemap */,
+				4D837405AB52D848D8FC16B8886866C9 /* Pods-QTL-QTLUITests-acknowledgements.markdown */,
+				16516A4B83B1FE206DA587698D08ADF2 /* Pods-QTL-QTLUITests-acknowledgements.plist */,
+				D8117F81D1C6507DFECF84FF4AE627DE /* Pods-QTL-QTLUITests-dummy.m */,
+				42072D30172217D04B2A7AF2635F2E16 /* Pods-QTL-QTLUITests-frameworks.sh */,
+				94344E87F1DFA5FEEA0D11CAB46688AF /* Pods-QTL-QTLUITests-Info.plist */,
+				F8E7CFB9F0FF860AE628691E35EBB202 /* Pods-QTL-QTLUITests-umbrella.h */,
+				DF72F3C8330E20F196067608FE58B53B /* Pods-QTL-QTLUITests.debug.xcconfig */,
+				BAD2A293F2139D4DABF0CC58680FFB18 /* Pods-QTL-QTLUITests.release.xcconfig */,
+			);
+			name = "Pods-QTL-QTLUITests";
+			path = "Target Support Files/Pods-QTL-QTLUITests";
+			sourceTree = "<group>";
+		};
+		AABEDAB1E2786DB19AA8B7D9F71D024C /* Pods-QTLTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB9CA56F1A45483AFBFDAB8ACD0A4E4 /* Pods-QTLTests.modulemap */,
+				94B19ED41E094FCEBDF374B432BDAA20 /* Pods-QTLTests-acknowledgements.markdown */,
+				738A304224BEBFC543EEF04C825522C2 /* Pods-QTLTests-acknowledgements.plist */,
+				BF5B9DE552BF119D11EA6F044218E7B1 /* Pods-QTLTests-dummy.m */,
+				101F29F0F3BA82CB77D8EDD2C64E9835 /* Pods-QTLTests-Info.plist */,
+				31B7502ECDED0EF3DB20E8197CC42B1D /* Pods-QTLTests-umbrella.h */,
+				E7531D5E4B04749954B38DB8135D9D2B /* Pods-QTLTests.debug.xcconfig */,
+				92D4FDD3137D53728C9C471BA8651FF2 /* Pods-QTLTests.release.xcconfig */,
+			);
+			name = "Pods-QTLTests";
+			path = "Target Support Files/Pods-QTLTests";
+			sourceTree = "<group>";
+		};
+		ABE288FE1E3F25EFA7DBE8D1BBA3BDA3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8132B07274CD03AAD3C0ECEE9919C5E /* LICENSE */,
+				6D552C63E2EE8C81FAFFBD9BE4AAC7F5 /* README.md */,
+				0032C71BAB6E32795460D4E4033BA9CA /* TEACommon.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B6850533E5E02E52EE4335628CCF3B65 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD4067EBA8BB78045F778B27C90A4D9F /* LICENSE */,
+				92BCA609D5149835870E7C4E77749B5E /* QTLMall.podspec */,
+				E7DC217033A731E0B3661CDCBFA67C4B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA22F08D059965C9A09F78196176CEDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F02E3862C6E84203E8324D9D0088797 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2D8C489B92AC60A8D4D4DFA7617390C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1821999F04FE260F3FBEC4F5F21A8889 /* Pods-QTL */,
+				17C36804D188A9050EC17A0B300A465B /* Pods-QTL-QTLUITests */,
+				597B895204A2040B5BBDAAB7B6B184B7 /* Pods-QTLTests */,
+				508B9F5BB8D8D759833E844F2CEF4BAC /* QTLCircle */,
+				D91CAA952605DC535E58A24C2531DE40 /* QTLFriend */,
+				F1C180241FF59AE8EA1088F76A1A47BD /* QTLLogin */,
+				3B21B790FA0A70CE54B416E9DBC6BEDB /* QTLMall */,
+				916F6D9834DBBDB5C2C2730873CEA2C9 /* QTLNews */,
+				DB5D47F25180248EDB1AE8B0EFAACA6F /* QTLUserCenter */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+				9C7BDD2CA8C0447CDA1DDF1B35A2882B /* TEACommon */,
+				2B2EDA04780238CEB7E6D0BC8236906B /* TEAUIKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8E563BCA0816D8FEFB1CB9FEE4337CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D1D649BB7942CE7E933222BAB2394B /* QTLUserCenter.modulemap */,
+				9A6B56F2884468EAF3F845CF05B43C96 /* QTLUserCenter-dummy.m */,
+				EC41DEB6EFDEE086F1DE17F3F3948502 /* QTLUserCenter-Info.plist */,
+				50F3B2C3E54F1E1C2AB59BE02AC751C9 /* QTLUserCenter-prefix.pch */,
+				FCFA37B467F321773B34BB0C2438CDC1 /* QTLUserCenter-umbrella.h */,
+				95B0237E850F9A21B90B1BCE178E2902 /* QTLUserCenter.debug.xcconfig */,
+				BB409D98BA925E49BC0B96B27DB262AA /* QTLUserCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/QTLUserCenter";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2C5555A9BE78A20F64F4D9F9A18A3704 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BA22F08D059965C9A09F78196176CEDB /* Pods */,
+				C2D8C489B92AC60A8D4D4DFA7617390C /* Products */,
+				91207C112962E907392B504B80383C6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D93030B6F96D47F91571E489F8ECA427 /* QTLCircle */ = {
+			isa = PBXGroup;
+			children = (
+				D6832764A363C0971AE106BFC876A43A /* QTLCircleHeader.swift */,
+				84397A9827CE576E00B03A37 /* Target_Circle.swift */,
+				84397A9A27CE57C100B03A37 /* QTLCircleMainViewController.swift */,
+				62153058C72AB5326821DF9A33B28658 /* Pod */,
+				067D10B74FADF233D0F4415E5C2E4BCD /* Support Files */,
+			);
+			name = QTLCircle;
+			path = ../../QTLCircle;
+			sourceTree = "<group>";
+		};
+		E33EFBCC8CDB41862A727FC9B9EC45DD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				62300CD4453B5E6E30C8BCC006BD608F /* LICENSE */,
+				8151E7DCFA8711065B569C5C8005973D /* QTLLogin.podspec */,
+				1151DAF115DBFA0169966748E1452E67 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F08173D799A6E5C575B4B122D814A45C /* TEAUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				71B01CF0830A4AA65595C50A7BDD6ACB /* ReplaceMe.swift */,
+				73C60950E10FC667E603387C6AEF7917 /* Pod */,
+				8D59F9BD3B796F0CF4B29E6D751B7471 /* Support Files */,
+			);
+			name = TEAUIKit;
+			path = ../../TEAUIKit;
+			sourceTree = "<group>";
+		};
+		F63FC7282C843A2F38781C595189C6E5 /* TEACommon */ = {
+			isa = PBXGroup;
+			children = (
+				6016E68726726B5D4E7D413146110296 /* TEACommon.swift */,
+				ABE288FE1E3F25EFA7DBE8D1BBA3BDA3 /* Pod */,
+				FF61C3A6C48FBE87824B5E0EF0CA08F9 /* Support Files */,
+			);
+			name = TEACommon;
+			path = ../../TEACommon;
+			sourceTree = "<group>";
+		};
+		F9507AF8D972DA8FABBB2B7FF9B48A15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F1642722E23CC37F2493B7546301E70 /* QTLFriend.modulemap */,
+				893AB32B2CF08B2094998A4E0360C241 /* QTLFriend-dummy.m */,
+				A76C4F41AAE1037A33FB4D40B4F84757 /* QTLFriend-Info.plist */,
+				FB9DEBCB1C0C4BB81AAB7BCA9979016B /* QTLFriend-prefix.pch */,
+				697FEFFF7079FBB70C951E2FA299651D /* QTLFriend-umbrella.h */,
+				1727534C379562DF53E0D404BB5874E7 /* QTLFriend.debug.xcconfig */,
+				E1A79E33962A5EA30FC9FDFFB4CB985F /* QTLFriend.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/QTLFriend";
+			sourceTree = "<group>";
+		};
+		FCF6A04665A640D2E65E32C3A79517CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B33965D84661BB8398962EECF6BB34 /* QTLMall.modulemap */,
+				CB10DAF10F2ADAC9C06A3ED10365E4CD /* QTLMall-dummy.m */,
+				E8690C185AEE202DFA623F0C8F132840 /* QTLMall-Info.plist */,
+				1334A7E0F914731ED50BE919B5B3B8C4 /* QTLMall-prefix.pch */,
+				D5F32F4E566238F482C35F01F30A8B81 /* QTLMall-umbrella.h */,
+				B901E1920798BC068E63F13DCA11FF96 /* QTLMall.debug.xcconfig */,
+				79AC39D721EF9D208FF6FD39746BA568 /* QTLMall.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/QTLMall";
+			sourceTree = "<group>";
+		};
+		FF61C3A6C48FBE87824B5E0EF0CA08F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2483D5E8756948ECAADF2459701374CE /* TEACommon.modulemap */,
+				560007372E610C9513D865B33DE6BF63 /* TEACommon-dummy.m */,
+				09CBD58C5FC70B710C341340B281E9FF /* TEACommon-Info.plist */,
+				A9050BEC54FBE4BE14B6AD7F5514ECFF /* TEACommon-prefix.pch */,
+				718720746B2C4C2D71B12F9A89996F73 /* TEACommon-umbrella.h */,
+				20AF39DACCAE449400CFA2614B76CF41 /* TEACommon.debug.xcconfig */,
+				2DB7EB62C39C3B41A1F33ACE6FD42B74 /* TEACommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../QTL/Pods/Target Support Files/TEACommon";
+			sourceTree = "<group>";
+		};
+		FF9A9A35A831CC1F98A99DF06AF52844 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D2853E8DF6F77D756A7D648A05F5E3D6 /* LICENSE */,
+				68D56E0A261B385913DE6CC37AD62B0F /* QTLUserCenter.podspec */,
+				1833A5CC18311479970DB4806DE3F1FB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B6E136952F502F870FA49F72CAF9297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE5CD39EB663374599E613360E429B /* QTLUserCenter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DCF03973DA2C08388F2FF6D40A23F05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2890FC4699512F8684DE14D87755B9B4 /* QTLMall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B921547E999920F44EBD58F955423CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1E310785551C29DB4D0B36BFE91F67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF151ACE08D01E969B1574EFE0F1402A /* Pods-QTLTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0E337AE51A337DB36BC304148DDB0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725006B8942737BCAF34EC65EAE8248 /* QTLNews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7BD05CD897C91BC91088C60258CA1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42533272144D6523B3DE6B313AEE960C /* TEACommon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF926963AD49A6F30B80A7A602C101EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74980DF1479AA4221EC5BB2ABD2FB44 /* Pods-QTL-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA605A917E3563B06C80F41EBF0AC00C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE81CDAB1963AA47DC9AF6A40D198B68 /* Pods-QTL-QTLUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB64D4EBF5F67721DD5650B4308E6A02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FB563929BBCC5FD8C5CF0563DE26DC /* QTLFriend-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4B412195743A2BAA5F609A04D15B3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BE48F3FE00045C6D639C145216E41B /* QTLLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64D2B3244ACAE0AAE2F932F61217B5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FFBA500E2B590B2D83FF8B6B70FFA4 /* TEAUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E8C0F62B398E9254DF4FD85F6E39D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9E2B7133C6A92D84250183FA58AEEB /* QTLCircle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00B719FE037FCD6F20BCF0BE2B545D12 /* QTLCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245D58CD71C21C4D11CCE737F5F6FB8A /* Build configuration list for PBXNativeTarget "QTLCircle" */;
+			buildPhases = (
+				E3E8C0F62B398E9254DF4FD85F6E39D4 /* Headers */,
+				925803B4793D833D99E031863564B808 /* Sources */,
+				C4A3EDBDC28706E1E1D4970E9F052574 /* Frameworks */,
+				A7B0887B58F5F6007E3906FD80BF139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTLCircle;
+			productName = QTLCircle;
+			productReference = 508B9F5BB8D8D759833E844F2CEF4BAC /* QTLCircle */;
+			productType = "com.apple.product-type.framework";
+		};
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				3B921547E999920F44EBD58F955423CC /* Headers */,
+				06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */,
+				9B30433E568C40FCE04D5188A9715448 /* Frameworks */,
+				DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EF646CD577271D2806E7298030F31D6 /* QTLMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26D799CBABC82553DB8FE54DB70B773 /* Build configuration list for PBXNativeTarget "QTLMall" */;
+			buildPhases = (
+				1DCF03973DA2C08388F2FF6D40A23F05 /* Headers */,
+				E730451AE34F98E8D78990EDD936E0DB /* Sources */,
+				3893896C8BE8F737FCBE28A036777F32 /* Frameworks */,
+				601F0E3D5CEED62051BEBC11CF9A00C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTLMall;
+			productName = QTLMall;
+			productReference = 3B21B790FA0A70CE54B416E9DBC6BEDB /* QTLMall */;
+			productType = "com.apple.product-type.framework";
+		};
+		256DF69592809E37E0BDBC1ACA5B8F84 /* QTLNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4B4D9F4807AB9AC6E149426B39460D /* Build configuration list for PBXNativeTarget "QTLNews" */;
+			buildPhases = (
+				6F0E337AE51A337DB36BC304148DDB0A /* Headers */,
+				70ADE58A7B38C87471A2FD3104F79409 /* Sources */,
+				B4271AB6612E3B104C9804E814106708 /* Frameworks */,
+				6FF2F8E18634689672606BEED2AA3FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTLNews;
+			productName = QTLNews;
+			productReference = 916F6D9834DBBDB5C2C2730873CEA2C9 /* QTLNews */;
+			productType = "com.apple.product-type.framework";
+		};
+		460036C2DEB1883E1CCEDFD1CEB42434 /* Pods-QTL-QTLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73D703BC8C38A27488B1474213E3FCF /* Build configuration list for PBXNativeTarget "Pods-QTL-QTLUITests" */;
+			buildPhases = (
+				BA605A917E3563B06C80F41EBF0AC00C /* Headers */,
+				478ED201F1685496213EDF1B9B591431 /* Sources */,
+				0B99943B2F89D54A6ECDA6ECE5AC9640 /* Frameworks */,
+				0BDF0BFF35DF0E827645EFCAFE9CB7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BAFA36605D176F9150016C7B4D4AB21 /* PBXTargetDependency */,
+				E9BD1386A58F097E41C641F2630F5128 /* PBXTargetDependency */,
+				081969F592EBFC404A75B468419A032D /* PBXTargetDependency */,
+				EA5F633B1902A687E4294CE55E2CE1F8 /* PBXTargetDependency */,
+				36B2EC3A5A2815A2FCF9D5B3203E51EE /* PBXTargetDependency */,
+				9C8265C90D30608CBC5A09A092689032 /* PBXTargetDependency */,
+				77B2CC44B6DEF64E897F02CEE9AE6084 /* PBXTargetDependency */,
+				8A71EFAC09A4EE3C83239357B7B0C1D8 /* PBXTargetDependency */,
+				0F6226A53DA5377951AF5EA00E48C1FE /* PBXTargetDependency */,
+			);
+			name = "Pods-QTL-QTLUITests";
+			productName = Pods_QTL_QTLUITests;
+			productReference = 17C36804D188A9050EC17A0B300A465B /* Pods-QTL-QTLUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		82BD268D40E5F8EC35F0DB5B193793D8 /* QTLLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D423B6B39B1DE28E75771FCD8B9999 /* Build configuration list for PBXNativeTarget "QTLLogin" */;
+			buildPhases = (
+				CC4B412195743A2BAA5F609A04D15B3B /* Headers */,
+				FC15852B879F8454FF4C0DBE57C45C58 /* Sources */,
+				0E3A7B4D804FA384AC3D133874197563 /* Frameworks */,
+				801FE25C05B6DC6AACCD401FD0C24485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTLLogin;
+			productName = QTLLogin;
+			productReference = F1C180241FF59AE8EA1088F76A1A47BD /* QTLLogin */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D08EE921399F55BEACC5713F7A7331D /* Pods-QTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DC667A13B3581C3AC2A3D2FAF90129 /* Build configuration list for PBXNativeTarget "Pods-QTL" */;
+			buildPhases = (
+				AF926963AD49A6F30B80A7A602C101EF /* Headers */,
+				63BEEA290790BF3E8BF19DC6E6AD9F0C /* Sources */,
+				6C1174479BCD125A20CD096685AC0C5C /* Frameworks */,
+				1F69F3A24A65240774DADCF1EB6C135C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7F6A3819702E4078B4AD8382AB6569 /* PBXTargetDependency */,
+				EB68D61B85FC907E947AC6AD768B25CC /* PBXTargetDependency */,
+				E4C8DD4600DCF5E4FD310D22B9532DA0 /* PBXTargetDependency */,
+				A0720AF3CF71A354F371C2E65856B7F5 /* PBXTargetDependency */,
+				5987ED08E759C80499BE047223FA27B5 /* PBXTargetDependency */,
+				3263913F82BC1A9C43FF3435478F2213 /* PBXTargetDependency */,
+				B594138A7CAF198AB90E668104BA4D58 /* PBXTargetDependency */,
+				221909874D92FB4F8B6DA871F9996E88 /* PBXTargetDependency */,
+				74DC82F2DDAEF54CDEE95C68A5FD43DF /* PBXTargetDependency */,
+			);
+			name = "Pods-QTL";
+			productName = Pods_QTL;
+			productReference = 1821999F04FE260F3FBEC4F5F21A8889 /* Pods-QTL */;
+			productType = "com.apple.product-type.framework";
+		};
+		A975110F2A23710EA614DC8DEFD6AFAD /* TEAUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99502E608F3C78CB43628A6CBCA97E3 /* Build configuration list for PBXNativeTarget "TEAUIKit" */;
+			buildPhases = (
+				D64D2B3244ACAE0AAE2F932F61217B5C /* Headers */,
+				E27875891C24FF0D290AD28209AFEC33 /* Sources */,
+				C60DC7E2CB8A9344B10AD6840A2F56AE /* Frameworks */,
+				4A2374499C7D15CA0ABD3A80D279B9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F58A274099E7EBBB06CEE66ABBE2E38 /* PBXTargetDependency */,
+			);
+			name = TEAUIKit;
+			productName = TEAUIKit;
+			productReference = 2B2EDA04780238CEB7E6D0BC8236906B /* TEAUIKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCB692FEBADE1BF2288527A497C92665 /* Pods-QTLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DB92926F00A52D53378D46E0784285 /* Build configuration list for PBXNativeTarget "Pods-QTLTests" */;
+			buildPhases = (
+				4A1E310785551C29DB4D0B36BFE91F67 /* Headers */,
+				C76CB97CE0822714A6950EDC2655ABCC /* Sources */,
+				5F9ACC5475359BB9AF01B574348FB084 /* Frameworks */,
+				F86E5FFD8EBBA98BC41BC35400EFA8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF6737E6BFA4BA84D382A74F3DF4230 /* PBXTargetDependency */,
+			);
+			name = "Pods-QTLTests";
+			productName = Pods_QTLTests;
+			productReference = 597B895204A2040B5BBDAAB7B6B184B7 /* Pods-QTLTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D94754B92FDA4D0474D2D4160E47C52F /* QTLUserCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDEC879A6CD508CC883BC81E125FBE2 /* Build configuration list for PBXNativeTarget "QTLUserCenter" */;
+			buildPhases = (
+				0B6E136952F502F870FA49F72CAF9297 /* Headers */,
+				20B913840186832752A9F3656E81D9B6 /* Sources */,
+				400A806BA78F257CD71257DDD749DF6C /* Frameworks */,
+				CB582B8B6A93DE8B140284FA03B250B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTLUserCenter;
+			productName = QTLUserCenter;
+			productReference = DB5D47F25180248EDB1AE8B0EFAACA6F /* QTLUserCenter */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0093C9DE651197DC45BB365ED0A4C84 /* QTLFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC61D755CB212FC074D20471B655A1A /* Build configuration list for PBXNativeTarget "QTLFriend" */;
+			buildPhases = (
+				CB64D4EBF5F67721DD5650B4308E6A02 /* Headers */,
+				6108198F377BD8086A17FE2EFA5C3FEE /* Sources */,
+				DAB28B3470C4AC598A37D31BC6A7E4BF /* Frameworks */,
+				0C4A6DFF80675554CB5C03CBBBC3A1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTLFriend;
+			productName = QTLFriend;
+			productReference = D91CAA952605DC535E58A24C2531DE40 /* QTLFriend */;
+			productType = "com.apple.product-type.framework";
+		};
+		E17278E88D37E988C3DFCD66CF0266D5 /* TEACommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EFAC770DF2B78F86FAFFDA31043901 /* Build configuration list for PBXNativeTarget "TEACommon" */;
+			buildPhases = (
+				7F7BD05CD897C91BC91088C60258CA1B /* Headers */,
+				8D145D2823776615ACBC34277E30BE85 /* Sources */,
+				146E1C0890DB670BBE5AC6D9617D9FE2 /* Frameworks */,
+				A4BCDE8B92C5E6B5CD83E07B8B038922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEACommon;
+			productName = TEACommon;
+			productReference = 9C7BDD2CA8C0447CDA1DDF1B35A2882B /* TEACommon */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QTL;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "陈尚露";
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C2D8C489B92AC60A8D4D4DFA7617390C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D08EE921399F55BEACC5713F7A7331D /* Pods-QTL */,
+				460036C2DEB1883E1CCEDFD1CEB42434 /* Pods-QTL-QTLUITests */,
+				BCB692FEBADE1BF2288527A497C92665 /* Pods-QTLTests */,
+				00B719FE037FCD6F20BCF0BE2B545D12 /* QTLCircle */,
+				E0093C9DE651197DC45BB365ED0A4C84 /* QTLFriend */,
+				82BD268D40E5F8EC35F0DB5B193793D8 /* QTLLogin */,
+				1EF646CD577271D2806E7298030F31D6 /* QTLMall */,
+				256DF69592809E37E0BDBC1ACA5B8F84 /* QTLNews */,
+				D94754B92FDA4D0474D2D4160E47C52F /* QTLUserCenter */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				E17278E88D37E988C3DFCD66CF0266D5 /* TEACommon */,
+				A975110F2A23710EA614DC8DEFD6AFAD /* TEAUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BDF0BFF35DF0E827645EFCAFE9CB7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C4A6DFF80675554CB5C03CBBBC3A1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F69F3A24A65240774DADCF1EB6C135C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2374499C7D15CA0ABD3A80D279B9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601F0E3D5CEED62051BEBC11CF9A00C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF2F8E18634689672606BEED2AA3FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801FE25C05B6DC6AACCD401FD0C24485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BCDE8B92C5E6B5CD83E07B8B038922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B0887B58F5F6007E3906FD80BF139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB582B8B6A93DE8B140284FA03B250B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86E5FFD8EBBA98BC41BC35400EFA8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */,
+				7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */,
+				B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */,
+				C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */,
+				8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */,
+				A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */,
+				7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */,
+				8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */,
+				BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */,
+				BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */,
+				EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */,
+				3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */,
+				3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */,
+				274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */,
+				A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */,
+				825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */,
+				D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */,
+				F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */,
+				CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */,
+				17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */,
+				62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */,
+				F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */,
+				E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */,
+				E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */,
+				D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */,
+				F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */,
+				1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */,
+				5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */,
+				F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */,
+				43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */,
+				4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */,
+				968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */,
+				3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */,
+				144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B913840186832752A9F3656E81D9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0283C49FC48349BC70961D82C5536A /* QTLUserCenter-dummy.m in Sources */,
+				21918F375A1E903BF75FD3D654782038 /* QTLUserCenterHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478ED201F1685496213EDF1B9B591431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E18BAAFB34F763E341A63EC9D6705F5 /* Pods-QTL-QTLUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6108198F377BD8086A17FE2EFA5C3FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BACA57B9326FFFCC0A1C9E4C2101E2 /* QTLFriend-dummy.m in Sources */,
+				E30D923C7DDA21D75865206509B2B4ED /* QTLFriendHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BEEA290790BF3E8BF19DC6E6AD9F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06A94C3F22D5BECFEF5B9259F5C52C1 /* Pods-QTL-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ADE58A7B38C87471A2FD3104F79409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F28D55AC909358A8A02015539218A2A /* QTLNews-dummy.m in Sources */,
+				9D609B1BB3BD7C93DF93AC75B1BE8C07 /* QTLNewsHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D145D2823776615ACBC34277E30BE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0119F52C04BBE3770E18C0DCC2FCD869 /* TEACommon.swift in Sources */,
+				27F7A2C28CAF578677B75E2630C3702A /* TEACommon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925803B4793D833D99E031863564B808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F8E03EF50252CFD88A737049B81FA4 /* QTLCircle-dummy.m in Sources */,
+				B5C9842FC90B21D8BB7482FB3FB18436 /* QTLCircleHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CB97CE0822714A6950EDC2655ABCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865F6BFC70DEC630AC19E20164E0C551 /* Pods-QTLTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27875891C24FF0D290AD28209AFEC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FEC35AC8ACA12ED00B2DF7D32FC4DF /* ReplaceMe.swift in Sources */,
+				30D1416E8C5A8A763CD4962EBD065EB3 /* TEAUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E730451AE34F98E8D78990EDD936E0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623805CA20141240E891E66D7CB6EC84 /* QTLMall-dummy.m in Sources */,
+				0B0DD076E00E9A288300CE82B922E358 /* QTLMallHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15852B879F8454FF4C0DBE57C45C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84397A9D27CE585500B03A37 /* QTLFriendViewController.swift in Sources */,
+				84397A8927CE4AD500B03A37 /* QTLLoginViewController.swift in Sources */,
+				84397A8127CE4A0B00B03A37 /* QTLLoginHeader.swift in Sources */,
+				84397A9927CE576E00B03A37 /* Target_Circle.swift in Sources */,
+				84397A9F27CE587E00B03A37 /* Target_Friend.swift in Sources */,
+				84397A9B27CE57C100B03A37 /* QTLCircleMainViewController.swift in Sources */,
+				84397AA127CE58E200B03A37 /* Target_Mall.swift in Sources */,
+				84397AA527CE594500B03A37 /* QTLNewsViewController.swift in Sources */,
+				E65B95B409D251B6A298ED01C0BD9FB5 /* QTLLogin-dummy.m in Sources */,
+				84397AA327CE58F200B03A37 /* QTLMallViewController.swift in Sources */,
+				84397AAB27CE59B700B03A37 /* QTLUserCenterViewController.swift in Sources */,
+				84397A9727CE534100B03A37 /* Target_Login.swift in Sources */,
+				84397AA727CE595800B03A37 /* Target_News.swift in Sources */,
+				84397AA927CE59A900B03A37 /* Target_UserCenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		081969F592EBFC404A75B468419A032D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLLogin;
+			target = 82BD268D40E5F8EC35F0DB5B193793D8 /* QTLLogin */;
+			targetProxy = EF365B05DC88B4BDC511C8BFD3FFB820 /* PBXContainerItemProxy */;
+		};
+		0F6226A53DA5377951AF5EA00E48C1FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TEAUIKit;
+			target = A975110F2A23710EA614DC8DEFD6AFAD /* TEAUIKit */;
+			targetProxy = 0539B16060A5F2B15290EBF003063929 /* PBXContainerItemProxy */;
+		};
+		221909874D92FB4F8B6DA871F9996E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TEACommon;
+			target = E17278E88D37E988C3DFCD66CF0266D5 /* TEACommon */;
+			targetProxy = 98C639B4C6EDADB12479586B9D96591F /* PBXContainerItemProxy */;
+		};
+		3263913F82BC1A9C43FF3435478F2213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLUserCenter;
+			target = D94754B92FDA4D0474D2D4160E47C52F /* QTLUserCenter */;
+			targetProxy = C11B4BDF6BE278BF70D8F85EC1EC3B7D /* PBXContainerItemProxy */;
+		};
+		36B2EC3A5A2815A2FCF9D5B3203E51EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLNews;
+			target = 256DF69592809E37E0BDBC1ACA5B8F84 /* QTLNews */;
+			targetProxy = 16CFA4404D19D77E3C2E03C931426665 /* PBXContainerItemProxy */;
+		};
+		4F58A274099E7EBBB06CEE66ABBE2E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 777BA165603042DD2703C2F988461182 /* PBXContainerItemProxy */;
+		};
+		5987ED08E759C80499BE047223FA27B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLNews;
+			target = 256DF69592809E37E0BDBC1ACA5B8F84 /* QTLNews */;
+			targetProxy = 19AE3A292533C95780F5B607D1CE963C /* PBXContainerItemProxy */;
+		};
+		5BAFA36605D176F9150016C7B4D4AB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLCircle;
+			target = 00B719FE037FCD6F20BCF0BE2B545D12 /* QTLCircle */;
+			targetProxy = 3661B7D8F857C80CFB571547F97DEC7F /* PBXContainerItemProxy */;
+		};
+		74DC82F2DDAEF54CDEE95C68A5FD43DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TEAUIKit;
+			target = A975110F2A23710EA614DC8DEFD6AFAD /* TEAUIKit */;
+			targetProxy = 9E5384A2540B677B87F409E3C4D8A404 /* PBXContainerItemProxy */;
+		};
+		77B2CC44B6DEF64E897F02CEE9AE6084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 22405288E9F3FE684F91226574EB08F7 /* PBXContainerItemProxy */;
+		};
+		7E7F6A3819702E4078B4AD8382AB6569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLCircle;
+			target = 00B719FE037FCD6F20BCF0BE2B545D12 /* QTLCircle */;
+			targetProxy = 58D17A43CA14392AA7F6136BEC1A5909 /* PBXContainerItemProxy */;
+		};
+		8A71EFAC09A4EE3C83239357B7B0C1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TEACommon;
+			target = E17278E88D37E988C3DFCD66CF0266D5 /* TEACommon */;
+			targetProxy = A3BFF5BAB3AE1BFF973FA44FA2ECF247 /* PBXContainerItemProxy */;
+		};
+		9C8265C90D30608CBC5A09A092689032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLUserCenter;
+			target = D94754B92FDA4D0474D2D4160E47C52F /* QTLUserCenter */;
+			targetProxy = 1DFB4C0D30D39C0AA38A3DD56F5CE8E2 /* PBXContainerItemProxy */;
+		};
+		A0720AF3CF71A354F371C2E65856B7F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLMall;
+			target = 1EF646CD577271D2806E7298030F31D6 /* QTLMall */;
+			targetProxy = 67AF1D010817F2D25B9D10880DD5B5A6 /* PBXContainerItemProxy */;
+		};
+		AEF6737E6BFA4BA84D382A74F3DF4230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QTL";
+			target = 8D08EE921399F55BEACC5713F7A7331D /* Pods-QTL */;
+			targetProxy = 4CB3D5A9969BE63560C475496DB92134 /* PBXContainerItemProxy */;
+		};
+		B594138A7CAF198AB90E668104BA4D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = E20C29D207DB3C40496564E9ABC3E7B3 /* PBXContainerItemProxy */;
+		};
+		E4C8DD4600DCF5E4FD310D22B9532DA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLLogin;
+			target = 82BD268D40E5F8EC35F0DB5B193793D8 /* QTLLogin */;
+			targetProxy = 2BE63D5EFE6376543766B11CF5F17C67 /* PBXContainerItemProxy */;
+		};
+		E9BD1386A58F097E41C641F2630F5128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLFriend;
+			target = E0093C9DE651197DC45BB365ED0A4C84 /* QTLFriend */;
+			targetProxy = 63F77EDFEF7EE48738F2DDF22F31CF39 /* PBXContainerItemProxy */;
+		};
+		EA5F633B1902A687E4294CE55E2CE1F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLMall;
+			target = 1EF646CD577271D2806E7298030F31D6 /* QTLMall */;
+			targetProxy = B51E2AC1D9A453A4574ACBC19BD0A80A /* PBXContainerItemProxy */;
+		};
+		EB68D61B85FC907E947AC6AD768B25CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTLFriend;
+			target = E0093C9DE651197DC45BB365ED0A4C84 /* QTLFriend */;
+			targetProxy = 26CAC90295350D1EE448D5A9A194548C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		229BD86A3BA3F83B0705E8FEB7431E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305CD8DCF29D46090D70C2F19E55C432 /* QTLCircle.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLCircle/QTLCircle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLCircle/QTLCircle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLCircle/QTLCircle.modulemap";
+				PRODUCT_MODULE_NAME = QTLCircle;
+				PRODUCT_NAME = QTLCircle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28BC951A2C84C508DD4D88169F07F9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B901E1920798BC068E63F13DCA11FF96 /* QTLMall.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLMall/QTLMall-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLMall/QTLMall-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLMall/QTLMall.modulemap";
+				PRODUCT_MODULE_NAME = QTLMall;
+				PRODUCT_NAME = QTLMall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B3D5BFFCCFCE00CB3444713CE4C966F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656DBCD9529377829DF32CAAE8AB68D3 /* Pods-QTL.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTL/Pods-QTL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTL/Pods-QTL.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		302A38142F174F26BC63C4572288869A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AC39D721EF9D208FF6FD39746BA568 /* QTLMall.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLMall/QTLMall-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLMall/QTLMall-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLMall/QTLMall.modulemap";
+				PRODUCT_MODULE_NAME = QTLMall;
+				PRODUCT_NAME = QTLMall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4532ED74698DEA2CB2A47CFE8D9397A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF72F3C8330E20F196067608FE58B53B /* Pods-QTL-QTLUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47A8906C2CA179843575E997256672A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7760F9F429493FBD5F7518198E728010 /* QTLNews.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLNews/QTLNews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLNews/QTLNews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLNews/QTLNews.modulemap";
+				PRODUCT_MODULE_NAME = QTLNews;
+				PRODUCT_NAME = QTLNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C6BEDAFC8A1A0EEBAF15AB5A0075BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B0237E850F9A21B90B1BCE178E2902 /* QTLUserCenter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLUserCenter/QTLUserCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLUserCenter/QTLUserCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLUserCenter/QTLUserCenter.modulemap";
+				PRODUCT_MODULE_NAME = QTLUserCenter;
+				PRODUCT_NAME = QTLUserCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E92AB3870F1353B59B182566A7089AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778584692BA0A1A12911F2B57D075A3C /* Pods-QTL.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTL/Pods-QTL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTL/Pods-QTL.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67902EEBB1C6F3B20617A60A52FA5220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB7EB62C39C3B41A1F33ACE6FD42B74 /* TEACommon.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TEACommon/TEACommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEACommon/TEACommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TEACommon/TEACommon.modulemap";
+				PRODUCT_MODULE_NAME = TEACommon;
+				PRODUCT_NAME = TEACommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		724AD28F4571AEB1192802351170AEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB409D98BA925E49BC0B96B27DB262AA /* QTLUserCenter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLUserCenter/QTLUserCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLUserCenter/QTLUserCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLUserCenter/QTLUserCenter.modulemap";
+				PRODUCT_MODULE_NAME = QTLUserCenter;
+				PRODUCT_NAME = QTLUserCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73AA064E94AD381D8BCD09CD04FDBC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD2A293F2139D4DABF0CC58680FFB18 /* Pods-QTL-QTLUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78198E16FEF170A7B42684F3D4F45FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7531D5E4B04749954B38DB8135D9D2B /* Pods-QTLTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTLTests/Pods-QTLTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTLTests/Pods-QTLTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B3CAC2E0265CDF6E51388C4A4464F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E70C9EC5CEBC964E2D9EA169E1710A3 /* QTLNews.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLNews/QTLNews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLNews/QTLNews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLNews/QTLNews.modulemap";
+				PRODUCT_MODULE_NAME = QTLNews;
+				PRODUCT_NAME = QTLNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		893B4545CA7D3755BC341C77726AF300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D4FDD3137D53728C9C471BA8651FF2 /* Pods-QTLTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTLTests/Pods-QTLTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QTLTests/Pods-QTLTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BC5AA363934CEC0EE77AFF6592C5B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238697BB38D64CD678AAD84BA0F6CFA8 /* QTLLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLLogin/QTLLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLLogin/QTLLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLLogin/QTLLogin.modulemap";
+				PRODUCT_MODULE_NAME = QTLLogin;
+				PRODUCT_NAME = QTLLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		915D19D4B2FF32C4A65F33DF6177AB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70138D5CB8F7824C83A186D5BA26483 /* QTLLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLLogin/QTLLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLLogin/QTLLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLLogin/QTLLogin.modulemap";
+				PRODUCT_MODULE_NAME = QTLLogin;
+				PRODUCT_NAME = QTLLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		975CEF54D61EF947E300316293AE042F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AF39DACCAE449400CFA2614B76CF41 /* TEACommon.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TEACommon/TEACommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEACommon/TEACommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TEACommon/TEACommon.modulemap";
+				PRODUCT_MODULE_NAME = TEACommon;
+				PRODUCT_NAME = TEACommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A47AE80D361616EFACA89A179B7D5EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81785DE9A5CDCB344B182C5D17EE8763 /* TEAUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TEAUIKit/TEAUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEAUIKit/TEAUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TEAUIKit/TEAUIKit.modulemap";
+				PRODUCT_MODULE_NAME = TEAUIKit;
+				PRODUCT_NAME = TEAUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A58326A1B09ACC05D1C05EB7D0EE7E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1727534C379562DF53E0D404BB5874E7 /* QTLFriend.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLFriend/QTLFriend-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLFriend/QTLFriend-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLFriend/QTLFriend.modulemap";
+				PRODUCT_MODULE_NAME = QTLFriend;
+				PRODUCT_NAME = QTLFriend;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB8A79F7382B0A1227C38D59E7968EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C21E0C93A1141A1E2EB51575500E27D /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB1E1EA8C15560E303F78941D67F2D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F4424A8E44F06DEE494561CD47443A /* TEAUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TEAUIKit/TEAUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEAUIKit/TEAUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TEAUIKit/TEAUIKit.modulemap";
+				PRODUCT_MODULE_NAME = TEAUIKit;
+				PRODUCT_NAME = TEAUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFFD31690F9CC8449FD1F803388E1D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CD432F32277BB93DEAADA626ECEC5B /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F18C04EBB2951DFCC6999A489E04393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A79E33962A5EA30FC9FDFFB4CB985F /* QTLFriend.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLFriend/QTLFriend-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLFriend/QTLFriend-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLFriend/QTLFriend.modulemap";
+				PRODUCT_MODULE_NAME = QTLFriend;
+				PRODUCT_NAME = QTLFriend;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBFB18F21631C15F49EFE70295B4F7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2076760EA875DF03A4AF39C1C30D1D73 /* QTLCircle.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QTLCircle/QTLCircle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QTLCircle/QTLCircle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QTLCircle/QTLCircle.modulemap";
+				PRODUCT_MODULE_NAME = QTLCircle;
+				PRODUCT_NAME = QTLCircle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245D58CD71C21C4D11CCE737F5F6FB8A /* Build configuration list for PBXNativeTarget "QTLCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFB18F21631C15F49EFE70295B4F7A7 /* Debug */,
+				229BD86A3BA3F83B0705E8FEB7431E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DC667A13B3581C3AC2A3D2FAF90129 /* Build configuration list for PBXNativeTarget "Pods-QTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3D5BFFCCFCE00CB3444713CE4C966F /* Debug */,
+				4E92AB3870F1353B59B182566A7089AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8A79F7382B0A1227C38D59E7968EEA /* Debug */,
+				DFFD31690F9CC8449FD1F803388E1D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDEC879A6CD508CC883BC81E125FBE2 /* Build configuration list for PBXNativeTarget "QTLUserCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6BEDAFC8A1A0EEBAF15AB5A0075BBD /* Debug */,
+				724AD28F4571AEB1192802351170AEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EFAC770DF2B78F86FAFFDA31043901 /* Build configuration list for PBXNativeTarget "TEACommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975CEF54D61EF947E300316293AE042F /* Debug */,
+				67902EEBB1C6F3B20617A60A52FA5220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DB92926F00A52D53378D46E0784285 /* Build configuration list for PBXNativeTarget "Pods-QTLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78198E16FEF170A7B42684F3D4F45FA4 /* Debug */,
+				893B4545CA7D3755BC341C77726AF300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D423B6B39B1DE28E75771FCD8B9999 /* Build configuration list for PBXNativeTarget "QTLLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915D19D4B2FF32C4A65F33DF6177AB75 /* Debug */,
+				8BC5AA363934CEC0EE77AFF6592C5B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4B4D9F4807AB9AC6E149426B39460D /* Build configuration list for PBXNativeTarget "QTLNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A8906C2CA179843575E997256672A5 /* Debug */,
+				7B3CAC2E0265CDF6E51388C4A4464F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26D799CBABC82553DB8FE54DB70B773 /* Build configuration list for PBXNativeTarget "QTLMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BC951A2C84C508DD4D88169F07F9FC /* Debug */,
+				302A38142F174F26BC63C4572288869A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73D703BC8C38A27488B1474213E3FCF /* Build configuration list for PBXNativeTarget "Pods-QTL-QTLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4532ED74698DEA2CB2A47CFE8D9397A2 /* Debug */,
+				73AA064E94AD381D8BCD09CD04FDBC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC61D755CB212FC074D20471B655A1A /* Build configuration list for PBXNativeTarget "QTLFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58326A1B09ACC05D1C05EB7D0EE7E55 /* Debug */,
+				F18C04EBB2951DFCC6999A489E04393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99502E608F3C78CB43628A6CBCA97E3 /* Build configuration list for PBXNativeTarget "TEAUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47AE80D361616EFACA89A179B7D5EE9 /* Debug */,
+				DB1E1EA8C15560E303F78941D67F2D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ECDE5FE1A0E51FFBBF68D18 /* Pods_QTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AF7FF9754D4C826F2A3F17 /* Pods_QTL.framework */; };
+		739B87DC0B2D9F5969956605 /* Pods_QTL_QTLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB600DB25D88629B6497C0B /* Pods_QTL_QTLUITests.framework */; };
+		84123BE027CE01970080DD8D /* QTLAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84123BDF27CE01970080DD8D /* QTLAppDelegate.swift */; };
+		84123BE427CE01970080DD8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84123BE327CE01970080DD8D /* ViewController.swift */; };
+		84123BE727CE01970080DD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84123BE527CE01970080DD8D /* Main.storyboard */; };
+		84123BE927CE01990080DD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84123BE827CE01990080DD8D /* Assets.xcassets */; };
+		84123BEC27CE01990080DD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84123BEA27CE01990080DD8D /* LaunchScreen.storyboard */; };
+		84123BF727CE01990080DD8D /* QTLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84123BF627CE01990080DD8D /* QTLTests.swift */; };
+		84123C0127CE01990080DD8D /* QTLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84123C0027CE01990080DD8D /* QTLUITests.swift */; };
+		84123C0327CE01990080DD8D /* QTLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84123C0227CE01990080DD8D /* QTLUITestsLaunchTests.swift */; };
+		84123C1027CE03480080DD8D /* JTWrapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84123C0F27CE03480080DD8D /* JTWrapViewController.swift */; };
+		84397A7327CE0C0300B03A37 /* JTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A7227CE0C0300B03A37 /* JTNavigationController.swift */; };
+		84397A7527CE0E4E00B03A37 /* QTLLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A7427CE0E4E00B03A37 /* QTLLeftViewController.swift */; };
+		84397A7927CE347800B03A37 /* QTLHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A7827CE347800B03A37 /* QTLHeader.swift */; };
+		84397A7B27CE366500B03A37 /* QTLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A7A27CE366500B03A37 /* QTLTabBarController.swift */; };
+		84397A7D27CE371900B03A37 /* QTLTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A7C27CE371900B03A37 /* QTLTabBar.swift */; };
+		84397A7F27CE378B00B03A37 /* QTLTabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397A7E27CE378B00B03A37 /* QTLTabBarButtonView.swift */; };
+		F71A9B3EF63B950E410974B6 /* Pods_QTLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FCDF14C82E0DAC67EBAD8C /* Pods_QTLTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84123BF327CE01990080DD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84123BD427CE01970080DD8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84123BDB27CE01970080DD8D;
+			remoteInfo = QTL;
+		};
+		84123BFD27CE01990080DD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84123BD427CE01970080DD8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84123BDB27CE01970080DD8D;
+			remoteInfo = QTL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63AF7FF9754D4C826F2A3F17 /* Pods_QTL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84123BDC27CE01970080DD8D /* QTL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84123BDF27CE01970080DD8D /* QTLAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLAppDelegate.swift; sourceTree = "<group>"; };
+		84123BE127CE01970080DD8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84123BE327CE01970080DD8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84123BE627CE01970080DD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84123BE827CE01990080DD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84123BEB27CE01990080DD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84123BED27CE01990080DD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84123BF227CE01990080DD8D /* QTLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84123BF627CE01990080DD8D /* QTLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLTests.swift; sourceTree = "<group>"; };
+		84123BFC27CE01990080DD8D /* QTLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84123C0027CE01990080DD8D /* QTLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLUITests.swift; sourceTree = "<group>"; };
+		84123C0227CE01990080DD8D /* QTLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84123C0F27CE03480080DD8D /* JTWrapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTWrapViewController.swift; sourceTree = "<group>"; };
+		84397A7227CE0C0300B03A37 /* JTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTNavigationController.swift; sourceTree = "<group>"; };
+		84397A7427CE0E4E00B03A37 /* QTLLeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLLeftViewController.swift; sourceTree = "<group>"; };
+		84397A7827CE347800B03A37 /* QTLHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLHeader.swift; sourceTree = "<group>"; };
+		84397A7A27CE366500B03A37 /* QTLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLTabBarController.swift; sourceTree = "<group>"; };
+		84397A7C27CE371900B03A37 /* QTLTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLTabBar.swift; sourceTree = "<group>"; };
+		84397A7E27CE378B00B03A37 /* QTLTabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTLTabBarButtonView.swift; sourceTree = "<group>"; };
+		8BA54E5B1CB7661D8874727D /* Pods-QTL-QTLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTL-QTLUITests.debug.xcconfig"; path = "Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA028C6C5A7416FE45D8BB37 /* Pods-QTL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTL.release.xcconfig"; path = "Target Support Files/Pods-QTL/Pods-QTL.release.xcconfig"; sourceTree = "<group>"; };
+		BC6421C64700F854ACFF85C8 /* Pods-QTLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTLTests.debug.xcconfig"; path = "Target Support Files/Pods-QTLTests/Pods-QTLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1FCDF14C82E0DAC67EBAD8C /* Pods_QTLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56FBD87EBA28F8F46B4C3DD /* Pods-QTL-QTLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTL-QTLUITests.release.xcconfig"; path = "Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D344A44B03D13EA278D50623 /* Pods-QTLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTLTests.release.xcconfig"; path = "Target Support Files/Pods-QTLTests/Pods-QTLTests.release.xcconfig"; sourceTree = "<group>"; };
+		D99FF1EFC4557CDACD6071D7 /* Pods-QTL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTL.debug.xcconfig"; path = "Target Support Files/Pods-QTL/Pods-QTL.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB600DB25D88629B6497C0B /* Pods_QTL_QTLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTL_QTLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84123BD927CE01970080DD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECDE5FE1A0E51FFBBF68D18 /* Pods_QTL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84123BEF27CE01990080DD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71A9B3EF63B950E410974B6 /* Pods_QTLTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84123BF927CE01990080DD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739B87DC0B2D9F5969956605 /* Pods_QTL_QTLUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5E28932D7F3318C2F6A5D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D99FF1EFC4557CDACD6071D7 /* Pods-QTL.debug.xcconfig */,
+				AA028C6C5A7416FE45D8BB37 /* Pods-QTL.release.xcconfig */,
+				8BA54E5B1CB7661D8874727D /* Pods-QTL-QTLUITests.debug.xcconfig */,
+				C56FBD87EBA28F8F46B4C3DD /* Pods-QTL-QTLUITests.release.xcconfig */,
+				BC6421C64700F854ACFF85C8 /* Pods-QTLTests.debug.xcconfig */,
+				D344A44B03D13EA278D50623 /* Pods-QTLTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84123BD327CE01970080DD8D = {
+			isa = PBXGroup;
+			children = (
+				84123BDE27CE01970080DD8D /* QTL */,
+				84123BF527CE01990080DD8D /* QTLTests */,
+				84123BFF27CE01990080DD8D /* QTLUITests */,
+				84123BDD27CE01970080DD8D /* Products */,
+				0E5E28932D7F3318C2F6A5D9 /* Pods */,
+				9C45A4F3163D34681991F0E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84123BDD27CE01970080DD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84123BDC27CE01970080DD8D /* QTL.app */,
+				84123BF227CE01990080DD8D /* QTLTests.xctest */,
+				84123BFC27CE01990080DD8D /* QTLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84123BDE27CE01970080DD8D /* QTL */ = {
+			isa = PBXGroup;
+			children = (
+				84123BDF27CE01970080DD8D /* QTLAppDelegate.swift */,
+				84123BE127CE01970080DD8D /* SceneDelegate.swift */,
+				84123BE327CE01970080DD8D /* ViewController.swift */,
+				84123C0F27CE03480080DD8D /* JTWrapViewController.swift */,
+				84397A7227CE0C0300B03A37 /* JTNavigationController.swift */,
+				84397A7427CE0E4E00B03A37 /* QTLLeftViewController.swift */,
+				84397A7A27CE366500B03A37 /* QTLTabBarController.swift */,
+				84397A7C27CE371900B03A37 /* QTLTabBar.swift */,
+				84397A7E27CE378B00B03A37 /* QTLTabBarButtonView.swift */,
+				84397A7827CE347800B03A37 /* QTLHeader.swift */,
+				84123BE527CE01970080DD8D /* Main.storyboard */,
+				84123BE827CE01990080DD8D /* Assets.xcassets */,
+				84123BEA27CE01990080DD8D /* LaunchScreen.storyboard */,
+				84123BED27CE01990080DD8D /* Info.plist */,
+			);
+			path = QTL;
+			sourceTree = "<group>";
+		};
+		84123BF527CE01990080DD8D /* QTLTests */ = {
+			isa = PBXGroup;
+			children = (
+				84123BF627CE01990080DD8D /* QTLTests.swift */,
+			);
+			path = QTLTests;
+			sourceTree = "<group>";
+		};
+		84123BFF27CE01990080DD8D /* QTLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84123C0027CE01990080DD8D /* QTLUITests.swift */,
+				84123C0227CE01990080DD8D /* QTLUITestsLaunchTests.swift */,
+			);
+			path = QTLUITests;
+			sourceTree = "<group>";
+		};
+		9C45A4F3163D34681991F0E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63AF7FF9754D4C826F2A3F17 /* Pods_QTL.framework */,
+				DFB600DB25D88629B6497C0B /* Pods_QTL_QTLUITests.framework */,
+				C1FCDF14C82E0DAC67EBAD8C /* Pods_QTLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84123BDB27CE01970080DD8D /* QTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84123C0627CE01990080DD8D /* Build configuration list for PBXNativeTarget "QTL" */;
+			buildPhases = (
+				22C747508D87022CD6EC50D5 /* [CP] Check Pods Manifest.lock */,
+				84123BD827CE01970080DD8D /* Sources */,
+				84123BD927CE01970080DD8D /* Frameworks */,
+				84123BDA27CE01970080DD8D /* Resources */,
+				46B89506139766EF498F191E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTL;
+			productName = QTL;
+			productReference = 84123BDC27CE01970080DD8D /* QTL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84123BF127CE01990080DD8D /* QTLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84123C0927CE01990080DD8D /* Build configuration list for PBXNativeTarget "QTLTests" */;
+			buildPhases = (
+				5D6F681565ED07885DD1652A /* [CP] Check Pods Manifest.lock */,
+				84123BEE27CE01990080DD8D /* Sources */,
+				84123BEF27CE01990080DD8D /* Frameworks */,
+				84123BF027CE01990080DD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84123BF427CE01990080DD8D /* PBXTargetDependency */,
+			);
+			name = QTLTests;
+			productName = QTLTests;
+			productReference = 84123BF227CE01990080DD8D /* QTLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84123BFB27CE01990080DD8D /* QTLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84123C0C27CE01990080DD8D /* Build configuration list for PBXNativeTarget "QTLUITests" */;
+			buildPhases = (
+				D05B59B9993BBCBB5B6FB851 /* [CP] Check Pods Manifest.lock */,
+				84123BF827CE01990080DD8D /* Sources */,
+				84123BF927CE01990080DD8D /* Frameworks */,
+				84123BFA27CE01990080DD8D /* Resources */,
+				72B987FBF62B705327157077 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84123BFE27CE01990080DD8D /* PBXTargetDependency */,
+			);
+			name = QTLUITests;
+			productName = QTLUITests;
+			productReference = 84123BFC27CE01990080DD8D /* QTLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84123BD427CE01970080DD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = QTL;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "陈尚露";
+				TargetAttributes = {
+					84123BDB27CE01970080DD8D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					84123BF127CE01990080DD8D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 84123BDB27CE01970080DD8D;
+					};
+					84123BFB27CE01990080DD8D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 84123BDB27CE01970080DD8D;
+					};
+				};
+			};
+			buildConfigurationList = 84123BD727CE01970080DD8D /* Build configuration list for PBXProject "QTL" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84123BD327CE01970080DD8D;
+			productRefGroup = 84123BDD27CE01970080DD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84123BDB27CE01970080DD8D /* QTL */,
+				84123BF127CE01990080DD8D /* QTLTests */,
+				84123BFB27CE01990080DD8D /* QTLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84123BDA27CE01970080DD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84123BEC27CE01990080DD8D /* LaunchScreen.storyboard in Resources */,
+				84123BE927CE01990080DD8D /* Assets.xcassets in Resources */,
+				84123BE727CE01970080DD8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84123BF027CE01990080DD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84123BFA27CE01990080DD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22C747508D87022CD6EC50D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QTL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46B89506139766EF498F191E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QTL/Pods-QTL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QTL/Pods-QTL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QTL/Pods-QTL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6F681565ED07885DD1652A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QTLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72B987FBF62B705327157077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QTL-QTLUITests/Pods-QTL-QTLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05B59B9993BBCBB5B6FB851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QTL-QTLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84123BD827CE01970080DD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84123C1027CE03480080DD8D /* JTWrapViewController.swift in Sources */,
+				84397A7527CE0E4E00B03A37 /* QTLLeftViewController.swift in Sources */,
+				84397A7927CE347800B03A37 /* QTLHeader.swift in Sources */,
+				84397A7327CE0C0300B03A37 /* JTNavigationController.swift in Sources */,
+				84123BE427CE01970080DD8D /* ViewController.swift in Sources */,
+				84397A7B27CE366500B03A37 /* QTLTabBarController.swift in Sources */,
+				84123BE027CE01970080DD8D /* QTLAppDelegate.swift in Sources */,
+				84397A7D27CE371900B03A37 /* QTLTabBar.swift in Sources */,
+				84397A7F27CE378B00B03A37 /* QTLTabBarButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84123BEE27CE01990080DD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84123BF727CE01990080DD8D /* QTLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84123BF827CE01990080DD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84123C0327CE01990080DD8D /* QTLUITestsLaunchTests.swift in Sources */,
+				84123C0127CE01990080DD8D /* QTLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84123BF427CE01990080DD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84123BDB27CE01970080DD8D /* QTL */;
+			targetProxy = 84123BF327CE01990080DD8D /* PBXContainerItemProxy */;
+		};
+		84123BFE27CE01990080DD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84123BDB27CE01970080DD8D /* QTL */;
+			targetProxy = 84123BFD27CE01990080DD8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84123BE527CE01970080DD8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84123BE627CE01970080DD8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84123BEA27CE01990080DD8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84123BEB27CE01990080DD8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84123C0427CE01990080DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84123C0527CE01990080DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84123C0727CE01990080DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99FF1EFC4557CDACD6071D7 /* Pods-QTL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KATT944NY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QTL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "英雄联盟-掌上";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tea.lolbible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84123C0827CE01990080DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA028C6C5A7416FE45D8BB37 /* Pods-QTL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KATT944NY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QTL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "英雄联盟-掌上";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tea.lolbible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84123C0A27CE01990080DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6421C64700F854ACFF85C8 /* Pods-QTLTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tea.lolbible.QTLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTL.app/QTL";
+			};
+			name = Debug;
+		};
+		84123C0B27CE01990080DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D344A44B03D13EA278D50623 /* Pods-QTLTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tea.lolbible.QTLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTL.app/QTL";
+			};
+			name = Release;
+		};
+		84123C0D27CE01990080DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA54E5B1CB7661D8874727D /* Pods-QTL-QTLUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tea.lolbible.QTLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QTL;
+			};
+			name = Debug;
+		};
+		84123C0E27CE01990080DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C56FBD87EBA28F8F46B4C3DD /* Pods-QTL-QTLUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tea.lolbible.QTLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QTL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84123BD727CE01970080DD8D /* Build configuration list for PBXProject "QTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84123C0427CE01990080DD8D /* Debug */,
+				84123C0527CE01990080DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84123C0627CE01990080DD8D /* Build configuration list for PBXNativeTarget "QTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84123C0727CE01990080DD8D /* Debug */,
+				84123C0827CE01990080DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84123C0927CE01990080DD8D /* Build configuration list for PBXNativeTarget "QTLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84123C0A27CE01990080DD8D /* Debug */,
+				84123C0B27CE01990080DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84123C0C27CE01990080DD8D /* Build configuration list for PBXNativeTarget "QTLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84123C0D27CE01990080DD8D /* Debug */,
+				84123C0E27CE01990080DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84123BD427CE01970080DD8D /* Project object */;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "TEAUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of TEAUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tea992/TEAUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tea992": "18055313337@163.com"
+  },
+  "source": {
+    "git": "https://github.com/tea992/TEAUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TEAUIKit/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "5.0.1"
+    ]
+  }
+}

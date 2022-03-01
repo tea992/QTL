@@ -1,0 +1,6 @@
+framework module TEAUIKit {
+  umbrella header "TEAUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

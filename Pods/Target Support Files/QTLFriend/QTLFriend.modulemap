@@ -1,0 +1,6 @@
+framework module QTLFriend {
+  umbrella header "QTLFriend-umbrella.h"
+
+  export *
+  module * { export * }
+}
